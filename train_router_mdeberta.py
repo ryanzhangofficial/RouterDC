@@ -241,6 +241,10 @@ if __name__ == '__main__':
     parser.add_argument('--H', type=int, default=3)
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--training_samples_per_dataset', type=int, default=1000)
+    
+    # W&B args
+    parser.add_argument('--wandb_entity', type=str, default=None)
+    parser.add_argument('--project_name', type=str, default=None)
 
     # final_eval
     parser.add_argument('--final_eval', action="store_true")
