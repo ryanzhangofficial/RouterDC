@@ -265,13 +265,10 @@ if __name__ == '__main__':
     encoder_model = DebertaV2Model.from_pretrained("microsoft/mdeberta-v3-base")
 
     # get the training data (x, y)
-    router_datasets = [
-        RouterDataset(path, size=args.training_samples_per_dataset, dataset_id=i)
-        for i, path in enumerate(args.data_paths)
-    ]
-    for ds in router_datasets:
-        ds.register_tokenizer(tokenizer)
-    train_dataset = ConcatDataset(router_datasets)
+    router_datasets = [RouterDataset(data_path, size=args.training_samples_per_dataset, dataset_id = i) for i, data_path in enumerate(args.data_paths)]
+    for router_dataset in router_datasets:
+        router_dataset.register_tokenizer(tokenizer)
+    router_dataset = ConcatDataset(router_datasets)
 
     print(f"init_model, router_node size: {router_datasets[0].router_node}")
     router_model = RouterModule(encoder_model, hidden_state_dim=768, node_size=len(router_datasets[0].router_node), similarity_function=args.similarity_function).to(device)
