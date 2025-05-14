@@ -44,7 +44,7 @@ from typing import List, Optional, Dict, Any
 
 import torch
 from transformers import AutoTokenizer, DebertaV2Model
-from train_router_mdeberta import RouterModule
+from train_router_mdeberta2 import RouterModule
 
 
 logger = logging.getLogger(__name__)

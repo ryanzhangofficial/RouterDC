@@ -4,7 +4,7 @@ import random
 import torch.optim
 from transformers import AutoTokenizer, DebertaV2Model
 
-from train_router_mdeberta import RouterModule, evaluation
+from train_router_mdeberta2 import RouterModule, evaluation
 
 
 if __name__ == '__main__': 
