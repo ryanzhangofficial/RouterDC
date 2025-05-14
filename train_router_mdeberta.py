@@ -151,27 +151,29 @@ class RouterModule(nn.Module):
     def compute_cluster_loss(self, hidden_state, cluster_ids, t, H=3):
         similar_score = self.compute_similarity(hidden_state, hidden_state)
         last_k2 = H
-        # get the index of corresponding dataset_id
         all_index = []
+
         for cluster_id in cluster_ids:
-            positive_indexs = torch.nonzero(cluster_ids == cluster_id)
-            select_positive_index = random.choice(positive_indexs)
-            negtive_indexs = torch.nonzero(cluster_ids != cluster_id)
-            if len(negtive_indexs) < last_k2:
-                print("len of negtive index is smaller than last_k2. cluster_id:", cluster_id)
+            positive_idxs = torch.nonzero(cluster_ids == cluster_id)
+            neg_idxs = torch.nonzero(cluster_ids != cluster_id)
+
+            # need at least one positive and H negatives
+            if len(positive_idxs) < 1 or len(neg_idxs) < last_k2:
+                # you could log here if you want
                 continue
-            index_of_negtive_indexs = random.sample(range(0, len(negtive_indexs)), last_k2)
-            select_negtive_index = negtive_indexs[index_of_negtive_indexs].view(-1)
-            select_index = torch.concat([select_positive_index, select_negtive_index])
-            all_index.append(select_index)
-        all_index = torch.stack(all_index)
-        rearrange_similar_score = torch.gather(similar_score, 1, all_index)
 
-        softmax_sample_x = torch.softmax(rearrange_similar_score, dim=-1)
-        log_sample_x = torch.log(softmax_sample_x)
-        loss = torch.mean(-log_sample_x[:,0])
-        return loss
+            pos_sel = random.choice(positive_idxs).view(-1)
+            neg_sel = neg_idxs[torch.randperm(len(neg_idxs))[:last_k2]].view(-1)
+            all_index.append(torch.cat([pos_sel.unsqueeze(0), neg_sel]))
 
+        # guard against empty
+        if not all_index:
+            return torch.tensor(0.0, device=hidden_state.device)
+
+        idx_stack = torch.stack(all_index)                                # [batch, 1+H]
+        sel = torch.gather(similar_score, 1, idx_stack)                  # [batch, 1+H]
+        logp = torch.log_softmax(sel, dim=-1)                            # [batch, 1+H]
+        return -logp[:, 0].mean()
 
 # evaluation the router with dataset. 
 def evaluation(router_model, dataset_paths, dataset_types, tokenizer, batch_size, device):    
