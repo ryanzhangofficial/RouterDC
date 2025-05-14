@@ -25,6 +25,6 @@ enroot start \
     --mount /usr/share/ \
     messplus \
     /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/ge56heh2/mess-plus/venv/bin/python /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/routerdc_bench.py \
-    --config /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouteLLM/config/pretrained/siqa.yaml \
+    --config /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/config/pretrained/siqa.yaml \
     --wandb-entity tum-i13 \
     --project-name routerdc-sweep
