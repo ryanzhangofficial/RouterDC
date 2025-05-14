@@ -76,6 +76,8 @@ for seed in \"\${seeds[@]}\"; do
     --cluster_loss_weight \${cluster_loss_weight} \
     --seed \${seed} \
     --save_path \"\${SAVE_DIR}\" \
+    --wandb_entity tum-i13 \
+    --project_name routerdc-train 
   2>&1 | tee -a \"\${LOG_FILE}\"
 done
 "
