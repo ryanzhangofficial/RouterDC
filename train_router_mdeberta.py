@@ -3,6 +3,7 @@ import json
 import os
 import random
 
+import torch
 import torch.nn as nn
 import torch.optim
 from torch.utils.data import Dataset, DataLoader, ConcatDataset
@@ -10,14 +11,14 @@ from tqdm import tqdm
 from transformers import AutoTokenizer, DebertaV2Model
 from utils.meters import AverageMeter
 import numpy as np
+import wandb  # Weights & Biases
 
 def setup_seed(seed):
-     torch.manual_seed(seed)
-     torch.cuda.manual_seed_all(seed)
-     np.random.seed(seed)
-     random.seed(seed)
-     torch.backends.cudnn.deterministic = True
-
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    np.random.seed(seed)
+    random.seed(seed)
+    torch.backends.cudnn.deterministic = True
 
 class RouterDataset(Dataset):
     def __init__(self,
@@ -26,13 +27,11 @@ class RouterDataset(Dataset):
                  target_max_token_len: int = 512,
                  size: int = None,
                  data_type: str = "multi_attempt",
-                 dataset_id = 0,
-                 ):
+                 dataset_id = 0):
         with open(data_path, 'r') as f:
-            if data_path.endswith('.json'):
-                self.data = json.load(f)
+            self.data = json.load(f)
         if size:
-            while(len(self.data) < size):
+            while len(self.data) < size:
                 self.data.extend(self.data)
             self.data = self.data[:size]
         self.router_node = list(self.data[0]['scores'].keys())
@@ -57,7 +56,7 @@ class RouterDataset(Dataset):
         )
         question_id['input_ids'] = question_id.input_ids.flatten()
         question_id['attention_mask'] = question_id.attention_mask.flatten()
-        cluster_id = data_point['cluster_id'] if "cluster_id" in data_point else 0
+        cluster_id = data_point.get('cluster_id', 0)
         return question_id, scores, self.dataset_id, cluster_id
 
     def __len__(self):
@@ -66,174 +65,129 @@ class RouterDataset(Dataset):
     def register_tokenizer(self, tokenizer):
         self.tokenizer = tokenizer
 
-
-# using inner product first
 class RouterModule(nn.Module):
-    def __init__(self, backbone, hidden_state_dim=768, node_size=3, similarity_function = "cos"):
+    def __init__(self, backbone, hidden_state_dim=768, node_size=3, similarity_function="cos"):
         super(RouterModule, self).__init__()
         self.backbone = backbone
         self.hidden_state_dim = hidden_state_dim
         self.node_size = node_size
         self.embeddings = nn.Embedding(node_size, hidden_state_dim)
-        std_dev = 0.78
         with torch.no_grad():
-            nn.init.normal_(self.embeddings.weight, mean=0, std=std_dev)
+            nn.init.normal_(self.embeddings.weight, mean=0, std=0.78)
         self.similarity_function = similarity_function
-            
 
     def compute_similarity(self, input1, input2):
         if self.similarity_function == "cos":
-            return (input1 @ input2.T) / (torch.norm(input1,dim=1).unsqueeze(1) * torch.norm(input2,dim=1).unsqueeze(0))
+            return (input1 @ input2.T) / (
+                torch.norm(input1, dim=1).unsqueeze(1) * torch.norm(input2, dim=1).unsqueeze(0)
+            )
         else:
             return input1 @ input2.T
 
-
-    '''The forward function pass the input to Router and compute the similarity between model output and trainable embedding'''
     def forward(self, t=1, **input_kwargs):
         x = self.backbone(**input_kwargs)
-        # We used the first token as classifier token.
-        hidden_state = x['last_hidden_state'][:,0,:]
-        x = self.compute_similarity(hidden_state, self.embeddings.weight)
-        x = x / t
-        return x, hidden_state
+        hidden_state = x['last_hidden_state'][:, 0, :]
+        sim = self.compute_similarity(hidden_state, self.embeddings.weight)
+        return sim / t, hidden_state
 
     def compute_sample_llm_loss(self, x, index_true, top_k, last_k):
         loss = 0
-        top_index_true, top_index = index_true.sort(dim=-1, descending=True)
-        last_index_true, negtive_index = index_true.topk(k=last_k, largest=False,dim=-1)
-
+        top_vals, top_idx = index_true.sort(dim=-1, descending=True)
+        last_vals, neg_idx = index_true.topk(k=last_k, largest=False, dim=-1)
         for i in range(top_k):
-            positive_index = top_index[:,i].view(-1,1)
-
-            # If positive model does not well, skip this.
-            mask = torch.where(top_index_true[:,i].view(-1,1) > 0, 1, 0)
-
-            top_x = torch.gather(x, 1, positive_index)
-            last_x = torch.gather(x, 1, negtive_index)
-
-            # make the last_x ignore the true items
-            last_x = torch.where(last_index_true > 0.5, float("-inf"), last_x)
-
-            temp_x = torch.concat([top_x, last_x], dim=-1)
-
-            softmax_x = nn.Softmax(dim=-1)(temp_x)
-            log_x = torch.log(softmax_x[:,0])
-            log_x = log_x * mask 
-            # * mask2
-            loss += torch.mean(-log_x)
+            pos_idx = top_idx[:, i].view(-1, 1)
+            mask = (top_vals[:, i].view(-1, 1) > 0).float()
+            pos_score = torch.gather(x, 1, pos_idx)
+            neg_score = torch.gather(x, 1, neg_idx)
+            neg_score = torch.where(last_vals > 0.5, float('-inf'), neg_score)
+            cat = torch.cat([pos_score, neg_score], dim=-1)
+            logp = torch.log_softmax(cat, dim=-1)[:, 0]
+            loss += torch.mean(-logp * mask)
         return loss
-    
+
     def compute_sample_sample_loss_with_task_tag(self, hidden_state, dataset_ids, t, H=3):
         similar_score = self.compute_similarity(hidden_state, hidden_state)
-        last_k2 = H
-        # get the index of corresponding dataset_id
         all_index = []
         for dataset_id in dataset_ids:
-            positive_indexs = torch.nonzero(dataset_ids == dataset_id)
-            select_positive_index = random.choice(positive_indexs)
-            negtive_indexs = torch.nonzero(dataset_ids != dataset_id)
-            if len(negtive_indexs) < last_k2:
-                print("len of negtive index is smaller than last_k2. dataset_id:", dataset_id)
+            pos_idxs = torch.nonzero(dataset_ids == dataset_id)
+            neg_idxs = torch.nonzero(dataset_ids != dataset_id)
+            if len(neg_idxs) < H:
                 continue
-            index_of_negtive_indexs = random.sample(range(0, len(negtive_indexs)), last_k2)
-            select_negtive_index = negtive_indexs[index_of_negtive_indexs].squeeze()
-            select_index = torch.concat([select_positive_index, select_negtive_index])
-            all_index.append(select_index)
-        all_index = torch.stack(all_index)
-        rearrange_similar_score = torch.gather(similar_score, 1, all_index)
+            pos_sel = random.choice(pos_idxs).view(-1)
+            neg_sel = neg_idxs[torch.randperm(len(neg_idxs))[:H]].view(-1)
+            all_index.append(torch.cat([pos_sel.unsqueeze(0), neg_sel]))
+        if not all_index:
+            return torch.tensor(0.0, device=hidden_state.device)
+        idx_stack = torch.stack(all_index)
+        sel = torch.gather(similar_score, 1, idx_stack)
+        logp = torch.log_softmax(sel, dim=-1)
+        return torch.mean(-logp[:, 0])
 
-        softmax_sample_x = torch.softmax(rearrange_similar_score, dim=-1)
-        log_sample_x = torch.log(softmax_sample_x)
-        loss = torch.mean(-log_sample_x[:,0])
-        return loss
-    
     def compute_cluster_loss(self, hidden_state, cluster_ids, t, H=3):
-        similar_score = self.compute_similarity(hidden_state, hidden_state)
-        last_k2 = H
-        # get the index of corresponding dataset_id
+        sim_score = self.compute_similarity(hidden_state, hidden_state)
         all_index = []
-        for cluster_id in cluster_ids:
-            positive_indexs = torch.nonzero(cluster_ids == cluster_id)
-            select_positive_index = random.choice(positive_indexs)
-            negtive_indexs = torch.nonzero(cluster_ids != cluster_id)
-            if len(negtive_indexs) < last_k2:
-                print("len of negtive index is smaller than last_k2. cluster_id:", cluster_id)
+        for cid in cluster_ids:
+            pos_idxs = torch.nonzero(cluster_ids == cid)
+            neg_idxs = torch.nonzero(cluster_ids != cid)
+            if len(neg_idxs) < H:
                 continue
-            index_of_negtive_indexs = random.sample(range(0, len(negtive_indexs)), last_k2)
-            select_negtive_index = negtive_indexs[index_of_negtive_indexs].view(-1)
-            select_index = torch.concat([select_positive_index, select_negtive_index])
-            all_index.append(select_index)
-        all_index = torch.stack(all_index)
-        rearrange_similar_score = torch.gather(similar_score, 1, all_index)
+            pos_sel = random.choice(pos_idxs).view(-1)
+            neg_sel = neg_idxs[torch.randperm(len(neg_idxs))[:H]].view(-1)
+            all_index.append(torch.cat([pos_sel.unsqueeze(0), neg_sel]))
+        if not all_index:
+            return torch.tensor(0.0, device=hidden_state.device)
+        idx_stack = torch.stack(all_index)
+        sel = torch.gather(sim_score, 1, idx_stack)
+        logp = torch.log_softmax(sel, dim=-1)
+        return torch.mean(-logp[:, 0])
 
-        softmax_sample_x = torch.softmax(rearrange_similar_score, dim=-1)
-        log_sample_x = torch.log(softmax_sample_x)
-        loss = torch.mean(-log_sample_x[:,0])
-        return loss
-
-
-# evaluation the router with dataset. 
-def evaluation(router_model, dataset_paths, dataset_types, tokenizer, batch_size, device):    
+def evaluation(router_model, dataset_paths, dataset_types, tokenizer, batch_size, device):
     result = {}
     with torch.no_grad():
         assert len(dataset_paths) == len(dataset_types)
-        for index, data_path in enumerate(dataset_paths):
-            test_dataset = RouterDataset(data_path=data_path)
-            test_dataset.register_tokenizer(tokenizer)
-            data_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=True)
-            correct_predict = 0
+        for idx, data_path in enumerate(dataset_paths):
+            test_ds = RouterDataset(data_path)
+            test_ds.register_tokenizer(tokenizer)
+            dl = DataLoader(test_ds, batch_size=batch_size, shuffle=True)
             correct = 0
-            for batch in data_loader:
-                inputs, scores, _, _ = batch
+            correct_pred = 0
+            for inputs, scores, _, _ in dl:
                 inputs = inputs.to(device)
                 scores = scores.to(device)
-                x, _ = router_model.forward(**inputs)
-                softmax_x = nn.Softmax(dim=1)(x)
-                _, max_index = torch.max(softmax_x, dim=1)
-
-                _, target_max_index = torch.max(scores, dim=1)
-                equals = max_index.eq(target_max_index)
-                correct += equals.sum().item()
-
-                if dataset_types[index] == "probability":
+                logits, _ = router_model.forward(**inputs)
+                preds = torch.softmax(logits, dim=1).argmax(dim=1)
+                targets = scores.argmax(dim=1)
+                correct += (preds == targets).sum().item()
+                if dataset_types[idx] in ("probability", "multi_attempt"):
                     mask = torch.zeros_like(scores)
-                    mask = mask.scatter_(1, max_index.unsqueeze(1), 1)
-                    scores[scores > 0] = 1
-                    correct_predict += (scores * mask).sum().item()
-                elif dataset_types[index] == "multi_attempt":
-                    mask = torch.zeros_like(scores)
-                    mask = mask.scatter_(1, max_index.unsqueeze(1), 1)
-                    correct_predict += (scores * mask).sum().item()
-
-            acc_predict = correct_predict/len(test_dataset)
-            acc = correct/len(test_dataset)
-            print(f"acc_{data_path}:", acc_predict)
-            print("acc", acc)
-            result[data_path] = [acc, acc_predict]
+                    mask.scatter_(1, preds.unsqueeze(1), 1)
+                    correct_pred += (scores * mask).sum().item()
+            result[data_path] = [
+                correct / len(test_ds),
+                correct_pred / len(test_ds)
+            ]
     return result
 
-
-if __name__ == '__main__': 
+if __name__ == '__main__':
     device = "cuda"
-    parser = argparse.ArgumentParser(description="the training code for router")
+    parser = argparse.ArgumentParser(description="RouterDC training with W&B")
+    # dataset args
+    parser.add_argument('--data_paths', nargs='+', required=True)
+    parser.add_argument('--test_data_paths', nargs='+', default=[])
+    parser.add_argument('--test_data_type', nargs='+', default=[])
+    parser.add_argument('--final_eval_data_paths', nargs='+', default=[])
+    parser.add_argument('--final_eval_data_type', nargs='+', default=[])
 
-    # dataset and path
-    parser.add_argument('--data_paths', nargs='+', default=["./datasets/split2_model7_cluster/gsm8k-train.json","./datasets/split2_model7_cluster/humaneval_train.json", "./datasets/split2_model7_cluster/arc_challenge_train.json", "./datasets/split2_model7_cluster/mmlu_train.json","./datasets/split2_model7_cluster/cmmlu_train.json",])
-    parser.add_argument('--test_data_paths',nargs='+', default=["./datasets/split2_model7/gsm8k-test.json", "./datasets/split2_model7/humaneval_test.json", "./datasets/split2_model7/arc_challenge_test.json", "./datasets/split2_model7/mmlu_test.json", "./datasets/split2_model7/cmmlu_test.json"])
-    parser.add_argument('--test_data_type', nargs='+', default=["multi_attempt", "multi_attempt", "probability", "probability", "probability"])
-    parser.add_argument('--final_eval_data_paths', default=["./datasets/split2_model7/arc_challenge_test.json", "./datasets/split2_model7/MATH_prealgebra.json", "./datasets/split2_model7/mbpp.json", "./datasets/split2_model7/ceval.json" ,"./datasets/split2_model7/gsm8k-test.json", "./datasets/split2_model7/humaneval_test.json",  "./datasets/split2_model7/mmlu_test.json", "./datasets/split2_model7/cmmlu_test.json"])
-    parser.add_argument('--final_eval_data_type', nargs='+', default=["probability", "probability", "multi_attempt","probability", "multi_attempt", "multi_attempt", "probability",  "probability"])
-
-    # training paras
+    # training args
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--training_steps', type=int, default=1000)
-    parser.add_argument('--eval_steps',type=int,default=50)
-    parser.add_argument('--learning_rate', type=float, default=0.00005)
+    parser.add_argument('--eval_steps', type=int, default=50)
+    parser.add_argument('--learning_rate', type=float, default=5e-5)
+    parser.add_argument('--gradient_accumulation', type=int, default=1)
     parser.add_argument('--save_path', type=str, default='./logs/router_debug/')
     parser.add_argument('--top_k', type=int, default=3)
-    parser.add_argument('--last_k',type=int, default=3)
-    parser.add_argument('--tempreture', type=int, default=1)
-    parser.add_argument('--gradient_accumulation', type=int, default=1)
+    parser.add_argument('--last_k', type=int, default=3)
+    parser.add_argument('--tempreture', type=float, default=1)
     parser.add_argument('--similarity_function', type=str, default='cos')
     parser.add_argument('--sample_loss_weight', type=float, default=0)
     parser.add_argument('--cluster_loss_weight', type=float, default=0)
@@ -241,116 +195,116 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--training_samples_per_dataset', type=int, default=1000)
 
-    # final_eval
-    parser.add_argument('--final_eval', action="store_true")
+    # W&B args
+    parser.add_argument('--wandb_entity', type=str, default=None)
+    parser.add_argument('--project_name', type=str, default=None)
+
+    # final eval flag
+    parser.add_argument('--final_eval', action='store_true')
     args = parser.parse_args()
+
     os.makedirs(args.save_path, exist_ok=True)
     setup_seed(args.seed)
 
-    # get router model (mdeberta-v3-base)
+    # initialize W&B
+    if args.project_name:
+        wandb.init(
+            entity=args.wandb_entity,
+            project=args.project_name,
+            config=vars(args),
+            save_code=True
+        )
+
+    # tokenizer and model setup
     tokenizer = AutoTokenizer.from_pretrained("microsoft/mdeberta-v3-base", truncation_side='left', padding=True)
     encoder_model = DebertaV2Model.from_pretrained("microsoft/mdeberta-v3-base")
 
-    # get the training data (x, y)
-    router_datasets = [RouterDataset(data_path, size=args.training_samples_per_dataset, data_type=args.test_data_type[i], dataset_id = i) for i, data_path in enumerate(args.data_paths)]
-    for router_dataset in router_datasets:
-        router_dataset.register_tokenizer(tokenizer)
-    router_dataset = ConcatDataset(router_datasets)
+    # prepare datasets
+    router_datasets = []
+    for i, path in enumerate(args.data_paths):
+        ds = RouterDataset(path, size=args.training_samples_per_dataset, data_type=None, dataset_id=i)
+        ds.register_tokenizer(tokenizer)
+        router_datasets.append(ds)
+    train_ds = ConcatDataset(router_datasets)
 
-    print(f"init_model, router_node size: {router_datasets[0].router_node}")
-    router_model = RouterModule(encoder_model, hidden_state_dim=768, node_size=len(router_datasets[0].router_node), similarity_function=args.similarity_function).to(device)
-
-    # get the optimizer (AdamW)
+    # model & optimizer
+    router_model = RouterModule(
+        encoder_model,
+        hidden_state_dim=768,
+        node_size=len(router_datasets[0].router_node),
+        similarity_function=args.similarity_function
+    ).to(device)
     optimizer = torch.optim.AdamW(router_model.parameters(), lr=args.learning_rate)
 
-    # start training
+    # training loop
     print("Training start!!!")
-    pbar = tqdm(range(args.training_steps))
     step = 0
-    training_log = []
-    max_average = 0
-    max_training_average = 0
+    pbar = tqdm(total=args.training_steps)
+    max_avg = 0
 
-    while(True):
+    while step < args.training_steps:
         losses = AverageMeter('Loss', ':3.2f')
-        data_loader = DataLoader(router_dataset, batch_size=args.batch_size, shuffle=True)
-        for batch in data_loader:
+        dl = DataLoader(train_ds, batch_size=args.batch_size, shuffle=True)
+        for inputs, scores, dataset_ids, cluster_ids in dl:
             optimizer.zero_grad()
-            inputs, scores, dataset_ids, cluster_ids = batch
             inputs = inputs.to(device)
             scores = scores.to(device)
-            dataset_ids = dataset_ids.to(device)
             cluster_ids = cluster_ids.to(device)
-            # normalize the target scores
 
-            x, hidden_state = router_model.forward(t=args.tempreture, **inputs)
-            loss = router_model.compute_sample_llm_loss(x = x, index_true=scores, top_k = args.top_k, last_k = args.last_k)
-
-            if args.sample_loss_weight:
-                sample_sample_loss = router_model.compute_sample_sample_loss_with_task_tag(hidden_state=hidden_state, dataset_ids=dataset_ids, t=args.tempreture, H=args.H)
-                loss = loss + args.sample_loss_weight * sample_sample_loss
-
+            logits, hidden = router_model.forward(t=args.tempreture, **inputs)
+            loss = router_model.compute_sample_llm_loss(logits, scores, args.top_k, args.last_k)
             if args.cluster_loss_weight:
-                cluster_loss = router_model.compute_cluster_loss(hidden_state=hidden_state, cluster_ids=cluster_ids, t=args.tempreture, H=args.H)
-                loss = loss + args.cluster_loss_weight * cluster_loss
-
-            losses.update(loss.item(), scores.size(0))
+                loss += args.cluster_loss_weight * router_model.compute_cluster_loss(hidden, cluster_ids, args.tempreture)
             loss.backward()
-            if step % args.gradient_accumulation == 0:   
+            if step % args.gradient_accumulation == 0:
                 optimizer.step()
 
-            pbar.set_postfix({"step": f"{step}","loss": loss.item()})
-            pbar.write(f"step:{step}, loss:{loss.item()}")
-            pbar.update(1)
+            losses.update(loss.item(), inputs['input_ids'].size(0))
             step += 1
+            pbar.update(1)
+            pbar.set_postfix({'step': step, 'loss': losses.avg})
+
+            # log to W&B
+            if args.project_name:
+                wandb.log({'train/loss': losses.avg, 'train/step': step})
+
             if step >= args.training_steps:
                 break
-            if (step + 1) % args.eval_steps == 0:
-                print("validation start")
-                val_result = evaluation(router_model, args.data_paths, args.test_data_type, tokenizer, batch_size = args.batch_size, device=device)
-                print("test start")
-                test_result = evaluation(router_model, args.test_data_paths, args.test_data_type, tokenizer, batch_size = args.batch_size, device=device)
-                result = {**val_result, **test_result}
-                average = sum([ value[1] for value in test_result.values()]) / len(test_result)
-                print("average testing", average)
-                if average > max_average:
-                    torch.save(router_model.state_dict(),  os.path.join(args.save_path, "best_model.pth"))
-                    max_average = average
-                training_log.append(result)
-                training_average = sum([ value[1] for value in val_result.values()]) / len(test_result)
-                print("average training", training_average)
-                if training_average > max_training_average:
-                    torch.save(router_model.state_dict(),  os.path.join(args.save_path, "best_training_model.pth"))
-                    max_training_average = training_average
 
-        print(f"step:{step}, avg_loss_per_epoch:{losses.avg}")
+            # Commented out evaluation section:
+            # if step % args.eval_steps == 0 and args.test_data_paths:
+            #     print("Validation start")
+            #     val_res = evaluation(router_model, args.data_paths, args.test_data_type, tokenizer, args.batch_size, device)
+            #     print("Test start")
+            #     test_res = evaluation(router_model, args.test_data_paths, args.test_data_type, tokenizer, args.batch_size, device)
+            #     avg_test = sum(v[1] for v in test_res.values()) / len(test_res)
+            #     print("avg test", avg_test)
+            #     if args.project_name:
+            #         wandb.log({'eval/avg_test_acc': avg_test, 'eval/step': step})
+            #     if avg_test > max_avg:
+            #         torch.save(router_model.state_dict(), os.path.join(args.save_path, "best_model.pth"))
+            #         max_avg = avg_test
+
         if step >= args.training_steps:
             break
 
-    if args.final_eval:
-        state_dict = torch.load(os.path.join(args.save_path, "best_training_model.pth"))
-        router_model.load_state_dict(state_dict)
-        print("test start")
-        test_result = evaluation(router_model, args.final_eval_data_paths, args.final_eval_data_type, tokenizer, batch_size=32, device="cuda")
-        print(test_result)
+    pbar.close()
 
-        output_order = ['mmlu', 'gsm8k', 'cmmlu', 'arc', 'humaneval', 'MATH', 'mbpp', 'ceval']
-        key_list = list(test_result.keys())
-        key_order = []
-        for key_candidate in output_order:
-            for key in key_list:
-                if key_candidate in key:
-                    key_order.append(key)
-                    break
-        for key in key_order:
-            print(f"{test_result[key][1] * 100}", end=' ')
+    # Commented out final evaluation
+    # if args.final_eval:
+    #     print("Final evaluation")
+    #     state = torch.load(os.path.join(args.save_path, "best_model.pth"))
+    #     router_model.load_state_dict(state)
+    #     final_res = evaluation(router_model, args.final_eval_data_paths, args.final_eval_data_type, tokenizer, 32, device)
+    #     print(final_res)
 
-    print("best avg", max_average)
-    print("best training avg", max_training_average)
+    # save the final model
+    torch.save(router_model.state_dict(), os.path.join(args.save_path, 'final_model.pth'))
+    print(f"Training complete. Model saved to {args.save_path}/final_model.pth")
 
-    # save the model
-    with open(os.path.join(args.save_path, "training_log.json"), 'w') as f:
-        json.dump(training_log, f)
-
+    # save config and log
     with open(os.path.join(args.save_path, "config.txt"), 'w') as f:
         f.write(str(args))
+
+    if args.project_name:
+        wandb.finish()
