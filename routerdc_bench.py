@@ -330,7 +330,7 @@ class MessPlusAutomaticModelSelector:
             ) as run:
 
                 # 1) Load training questions for this benchmark
-                train_json_path = Path("data") / "inference_outputs" / task_output.task_name / f"{task_output.task_name}_train.json"
+                train_json_path = Path("/dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data") / "inference_outputs" / task_output.task_name / f"{task_output.task_name}_train.json"
                 with open(train_json_path, "r") as f:
                     train_entries = json.load(f)
                 train_questions = {entry["question"] for entry in train_entries}
