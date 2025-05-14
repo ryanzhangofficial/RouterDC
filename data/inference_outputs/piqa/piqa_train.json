@@ -1,0 +1,902 @@
+[
+  {
+    "question": "Question:how do you toast something?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:When can I see the moon\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How to make a small but cheap home easily?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To crack an egg without any special tools,\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:how to make nut brittle\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:how to make slow-cooker polenta\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Attach tooth picks to a cork board to create a thread spool holder.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To prepare frappucino bottles to be repurposed as spice storage bottles.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To load cylinder containers to a truck.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How can you  spread butter if it is cool or too hard to spread?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How do I mix in the flour for butter cookies?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How to thicken barbecue sauce.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Harvest maple syrup.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To get rid of under eye bags.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:make a grilled cheese\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:When making a bottle cap dragon how are the caps fastened?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How can I sand dry wall without making a mess?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:how to keep bedding wrinkle free\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What  do you use to propery smooth cement before it dries?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To quarter biscuits, you can\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Seal a sucking chest wound.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To organize the untitled music on your phone,\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:how to find the surface area of a cube\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How to whip up a batch of body butter.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What ingredients are needed to make decorative lotion bar?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:floss\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How to paint a wall\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:how do you butter toast?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How to sand the wood block.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:cotton ball\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To restart a wall mounted heater unit,\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Scrub tough grime off kitchen counter tops.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How can I neatly store my headphones?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:filters\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To easily disburse pancake mix on a pan,\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To peel the shell off of a hard boiled egg.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How do you snuff a candle?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:how do you crisp something\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Make a yoga mat carrier.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Where should I plant lily bulbs for the best results?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To serve the microwave brownies\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:When can I see the moon\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Remove sand from feet.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To cook the kebab meat on a grill\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To cut circles out of dough without a cookie cutter.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:icing\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How to dye yarn.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How to clean blinds without tearing them up\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Concrete\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Prevent feet from sweating when wearing flats.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Once you have put melted HDPE plastic in a mold what should you do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:roller\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:sofa\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How can you get a free pickle at Disney Land?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:dresser\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:When allowing chicken to marinate, you can\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To cover the slide portion of a child's wooden slide\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How to keep brown sugar from going hard?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How do you properly prepare a steak.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What supplies are needed to make a 'The Neverending Story' book box?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:how do you use ketchup out of a ketchup bottle?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How to dislike a video on Youtube\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Make the best tasting lemonade you've ever tried.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How should I drill the hole in the back of the frame?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Make a piano fountain.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How can I raise and lower a picavet with a camera attached so it can be flown with a kite?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How to teach your toddler how to talk.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Remove stains from eye glasses.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To attach the PVC pipe wire holder to the studs behind the dry wall.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How can I remove a nail from wood?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How can you legally get a free donut at Krispy Kreme?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To smooth the texture of plywood,\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:how do you make soup?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:how to make a watermelon shake\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Make a quick tube dress for your daughter's barbie doll.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To heat set a length of ribbon, you can\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To determine how much iodine needs to be added to test the water for drink-ability.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Pick up broken glass.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:how do you use a draw/erase board?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To design a exercise routine for the lower body you can do at home.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Protect wooden surface from moisture.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How much rhubarb do I need for making rhubarb strawberry pie?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:how do you marinade meat?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How to add water to soda bottle.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:ornament\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What can I use to go to London the quickest\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How can I easily carry clothes on hangers when I move?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What are some items I would need to store fresh greens?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:how do you terminate something?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To measure oats into a measuring cup without making a mess,\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What should I keep in my glove compartment?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the best material to be used for the solar air heating box?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To allow yourself to make edits, while writing by hand.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Make a new sponge from an old plastic mesh bag.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Finish the concrete patio.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How do I choose good apples at the grocery store?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To remove folds and creases from a sewing pattern\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Kill fruit flies easily.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:For making leather earrings, how much leather would I need?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To prepare carrots before cooking with them, you can\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  }
+]

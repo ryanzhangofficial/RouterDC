@@ -1,0 +1,902 @@
+[
+  {
+    "question": "Question:Morning glories are plants that have a large amount of variation in the genes for flower color. When a white flower appears in a population independent of the trait for white flower color, what is the most likely source?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the role of decomposers in a food web?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:If an atom of hydrogen gives up one electron, what is its overall charge?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Several students are entering a bridge building contest that requires using ice cream sticks and glue to construct the strongest bridge possible. The bridges must be 5 in. wide and span a length of 18 in. Which of the following tests is the most accurate way to determine the strongest span design for these bridges?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Missy and Ethan discussed examples of the types of changes in matter. In which example is a chemical change taking place?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:There are a total of eight planets that orbit the Sun. How many of the other planets orbit in the same direction as Earth?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which investigation will best test the effects of gravity on moving objects?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A student wishes to measure the rate of evaporation of a volatile liquid at room temperature. Which piece of equipment would be best to use in this investigation?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A chameleon can change colors to match its surroundings. This ability helps the chameleon survive because it can\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which of the following changes would end Earth's tectonic activity?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:One function of a plant's seed is to\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Ancient Greeks hypothesized that a hair from a horse's tail left in water would turn into a worm. What scientific process most likely would have disproved this hypothesis?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The Miconia plant is not a native plant to Hawaii. Since its introduction into Hawaii 40 years ago, it has become a popular decorative plant. However, this shallow-rooted plant has replaced many of the native deep-rooted plant species and increased the likelihood of landslides on the island. Which is one of the best methods of dealing with this invasive plant?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which of these objects is opaque?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Where are fern plants most likely to grow?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which of these serve as protective barriers along coastlines and are often destroyed when hit by a strong hurricane?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Copper and gold have similar reactive properties. On the Periodic Table of the Elements, these elements are most likely to\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Scientists studied largemouth bass populations in several different geographic locations. They recorded information about the size, number, and weight of fish in each population. Which of the following will be best suited for recording these data?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which statement explains why most salmon leave salt water and return to fresh water?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which statement is an opinion about the element copper?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:When and where would the number of daylight hours each day be greatest?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Zinc is a mineral that helps\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Trees are a renewable natural resource. Which of these industries has the least need for trees?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Some frog species will bury themselves in mud if the environment becomes very dry. The frogs enter into a type of hibernation. Which would be the most likely signal for the frogs to emerge from the mud?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Since Earth radiates heat into outer space, why is Earth's surface not becoming colder?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which is a renewable natural resource that can be replenished over a period of time?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which action would increase the amount of oxygen in a fish tank?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which statement describes how energy can be helpful?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A hill in the rain forest was once completely covered with trees. A logging company cut down all of the trees. Which is a form of environmental degradation that will most likely result because of the cutting down of trees?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A student has built a model in which sheets of cork floating in a tub of water represent tectonic plates. To make the sheet representing an ocean plate more accurate in the model system, the student should\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A small laundry room has several shelves above the washing machine. These shelves are an example of\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which of these most likely determines if a mutation will become an adaptation in a species?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Two different species evolving from a common ancestor most likely occurs\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A predator is an animal that feeds on other animals. Which of these is a predator?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which statement best explains why wood is considered a renewable energy resource and coal is not?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the first line of defense in the human body against infection and disease?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A farmer has three large fields where he plans to grow grasses to harvest for hay. Grasses should be harvested only after two years of growth. What could the farmer do to make sure he has a hay crop each year?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which situation would affect an organism's niche in a positive way?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Animals are made up of many atoms. What happens to the atoms after an animal has died?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which action would increase the amount of oxygen in a fish tank?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A potential negative impact of building a dam on a river is that the dam\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which is a renewable resource?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:In a forest ecosystem, the niche of a squirrel population is\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A battery-powered toy sailboat heading south on a pond catches a wind blowing from east to west. The combination of forces will cause the sailboat to move in which direction?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A student has built a model in which sheets of cork floating in a tub of water represent tectonic plates. To make the sheet representing an ocean plate more accurate in the model system, the student should\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Some space telescopes search for extrasolar planets. The ability to observe which phenomenon is most important for these telescopes' purpose?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A population of deer recently increased in size. Which most likely could have caused the deer population to increase?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Why does the Sun appear to be the largest star when there are stars that are much larger than the Sun?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Reef-building corals work together with photosynthetic algae that live in their tissues. Which type of energy is algae within a coral reef most likely able to use in order to survive?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the best way to model the effect of wind on sand dunes?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:In organisms, macromolecules are made up of subunits. Which of these pairs correctly describes how a macromolecule is constructed?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:In a forest ecosystem, the niche of a squirrel population is\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:There are several theories that exist concerning the way dinosaurs became extinct. If new evidence is found that appears to challenge a particular theory on dinosaur extinction, what happens to the old theory?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Students heated three objects to different temperatures during a classroom demonstration. Each object emitted light of a different color as shown below. Object 1: blue light Object 2: red light Object 3: orange light Which list presents the objects in order from highest to lowest temperature?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A student prepared a presentation to show how water changes the surface of Earth. Which presentation would best demonstrate how water changes the surface of Earth?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How are the stem of a tree and the stem of a flower most similar?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which statement is an opinion about the heart?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Students want to know how big the leaves of an oak tree are. The BEST way to measure the size of the leaves is to ___.\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Light bulbs vary in their ability to use electrical energy efficiently. Alicia compared the amount of electrical energy needed to light an incandescent bulb and a fluorescent bulb. Which units would Alicia use to compare electrical energy usage?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The planets in the solar system revolve around the Sun because the Sun is\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which statement best describes the energy changes that occur while a child is riding on a sled down a steep, snow-covered hill?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:An Earth Science class is planning a field trip to a quarry to look for fossils. Which item will be important for the students to wear during the field trip to prevent damage from solar radiation?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:When conducting a laboratory experiment, which action could be an unsafe practice?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:All planets of the solar system rotate, but not all planets have the same rotational velocity. Which characteristic of a planet is determined by the rotational velocity of the planet?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which describes a chemical change?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A wind farm contains a large number of windmills to generate electricity. Which is the BEST reason wind farms are not located near forests?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The particles within a substance are in constant motion. The particles in which of these substances have the lowest amount of kinetic energy?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The evidence gained from a design activity is often used to gather information about a technological problem. A design activity is more valid if it\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the major process of surface rock formation on volcanoes?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:To produce light, the atoms inside a light bulb transform electrical energy into what other kind of energy?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The Moon revolves around Earth. This causes\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The voltage is held constant in an electric circuit. What will happen to the current in this circuit if the resistance is doubled?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which of these questions cannot be answered scientifically?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which of the following would you most likely use to study the growth of an insect over time?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What process causes igneous rock to transform into metamorphic rock?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which action by the body best releases heat and cools the body during and after exercising?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Flooding rivers can help or harm the environment. Which of these would be a helpful effect from a flood?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which of these will result in the least gravitational attraction?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A scientist studies cellular respiration. He measures the rate of cellular respiration in people doing different activities. Which activity will increase cellular respiration the most?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Many bacteria grow quickly at room temperatures of about 20\u00b0C. The temperature inside a refrigerator is usually kept at about 4\u00b0C. Which statement best explains how using a refrigerator has helped society?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which material is the best heat insulator?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:When a speeding meteor enters Earth's atmosphere, it slows down and becomes very hot due to friction. Which factor most influences the amount of friction that a meteor encounters when it enters the atmosphere?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A group of friends decided to go camping for the weekend. They gathered some tree branches and built a campfire. What type of energy of the tree branches did the friends use?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Anne's project for the science fair is about renewable energy. She wants to describe an activity that uses a renewable source of energy. Which activity should she describe in her project?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:When an animal population moves a long distance to another area in order to survive it is called\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Derek hypothesizes that a potted fern in a closed container will stay healthier than the same type of plant on an open windowsill. At the conclusion of his investigation, Derek finds that his results support his hypothesis. Which best explains why Derek should repeat the investigation?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:If an organism developed in an environment with a gravitational field greater than Earth, which adaptation would most benefit the organism?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which object has the greatest flexibility?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:An Earth Science class is planning a field trip to a forest. Which supply should each student carry on the field trip?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Six puppies were born at the same time. After 6 months, one of the puppies was much heavier than the others. Which of the following is the most likely explanation for difference in size of that puppy?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Sometimes, large meteoroids enter the atmosphere of Earth and reach the ground. Scientists identify possible impact sites when they find\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Oceanic crust is composed mainly of basalt. Continental crust is composed mainly of granite. Why does oceanic crust generally tend to subduct under continental crust when plates collide?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Cell differentiation is the result of gene expression. Genes can be regulated several ways. For example, small interference RNA molecules (siRNA), prevent gene expression by binding to the product of transcription. How do siRNA molecules silence genes?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Two students each carry a box up to the third floor of a building. The total mass of each student and the box she is carrying is the same. Roberta makes the trip in 45 s while Mary takes 30 s. Which of the following statements best describes this task?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which of these is inherited by a person from his or her parents?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:As a warm moist air mass moving northward collides with a strong cold air mass moving southward, what observations will most likely be made?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Electric cars are expensive to own, and recharging stations are not readily available. Unlike cars that run on fossil fuels, electric cars produce no carbon monoxide when being driven. Which of the following best explains why people choose to use this technology?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A researcher observes membrane-bound structures in a cell. Based on this observation, the researcher can conclude that the cell is classified as a\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Coal is formed from\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A person riding in a moving Ferris wheel is constantly changing\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  }
+]

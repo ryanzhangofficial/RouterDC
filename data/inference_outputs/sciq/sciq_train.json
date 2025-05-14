@@ -1,0 +1,902 @@
+[
+  {
+    "question": "Question:What element is present in all organic molecules?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Two smaller isotopes, more neutrons, and heat energy are the products of what type of reaction?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:If the water vapor condenses in liquid droplets as clouds form, what is released in the atmosphere?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What element is the most abundant in the universe?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How do prokaryotic cells divide?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is a mixture of a solute in a solvent called?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What branch of science explains much of what you observe and do in your daily life?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What disease is the result of unchecked cell division caused by a breakdown of the mechanisms regulating the cell cycle?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Oogenesis, which is gametogenesis in females, begins with what type of ste cells?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Foodborne illness, food allergies, or a food intolerance cause symptoms in what system?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Ibuprofen and albuterol are examples of drugs whose _________ have different effects.\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What phase does the nuclear envelope begin to break down?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What do concentric circles on a topographic map indicate?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How do multicellular organisms grow in size?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:According to the special theory of relativity, no physical object can equal or exceed the speed of what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What particles ancient greeks propose that matter consists of ?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the term for what the earth rotates on?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What are cells without a nucleus called?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Magnets have a \"north\" and a \"south\" what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Honeybees doing the waggle dance or spiders spinning a web are examples of what type of behavior?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Earthquakes cause longitudinal waves as well as which other waves?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Angiosperm seed develops inside of what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Electricity consists of a constant stream of what tiny particles?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which  organs control the amount of water, ions, and other substances in the blood by excreting more or less of them in urine?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What type of crust is made of basalt lavas that flow onto the seafloor?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:In humans, the only haploid cells are what reproductive cells?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Skyscrapers and other large structures built on soft ground must be anchored to what, located below the ground surface?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Solid carbon dioxide is called what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the watery fluid that bathes tissues and organs and contains protective white blood cells but does not contain erythrocytes?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Many species of rotifers exhibit haplodiploidy, which is a method of what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is equal to the angular acceleration multiplied by the radius of the rotating object?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What happens to water vapor as it rises?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Groups of three bases form codons, and each codon stands for one what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Spongy bone is found inside bones and is lighter and less dense than compact bone because it is what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What contains positive protons and neutral neutrons?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What two types of tissue compose most of the non-pregnant and non-lactating female breast?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the name of microscopic channels which traverse the cell walls of plants?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the term for a series of biochemical reactions by which an organism converts a given reactant to a specific end product?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A food web can be broken up into what further subdivision that usually has a few links in it?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Hormones are often regulated through what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is a fiber that is found only in mammals?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How do many mammals control their body temperature?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the star nearest the earth named?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What symbol is used to indicate directionality in chemical reactions?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What type of bonds are formed between atoms sharing electrons?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The primary motor cortex is located in which lobe of the brain?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The sun gives off energy in tiny packets called what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What break down dead organisms and other organic waste and release inorganic molecules back to the environment called?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:When equal amounts of a strong acid such as hydrochloric acid are mixed with a strong base such as sodium hydroxide, the result is what kind of solution?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Ions flow through atp synthase from the thylakoid space into the stroma in a process called known as what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the most direct way of recovering a metal from its ores?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What system of the body is responsible for transmitting, processing, and responding to most of the sensory information that is created by various stimuli?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What two types of tissue compose most of the non-pregnant and non-lactating female breast?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:All the atoms of a given element have the same number what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the electron domain geometry of ammonia?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What do ecologists study at every level?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:All of the elements in group 9 have nine of which electrons?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Anaerobic cellular respiration does not require the presence of what (by the very fact it is anaerobic, specifically)?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which fish has a round sucker used to suck the blood of other fish?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:In an ecosystem, what do you call organisms like lions that capture and kill other animals for food?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What does pepsin help break down into amino acids?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the general name for a group of atoms derived from an alkane?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Population size is the number of what in a population?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the diffusion of water through a semipermeable membrane down its concentration gradient\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The four basic types of tissue are epithelial, muscle, connective, and what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:While the goal of science is to increase knowledge, the goal of what is to use knowledge for practical purposes?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The four basic types of tissue are epithelial, muscle, connective, and what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:A reaction producing heat is what type of reaction?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Childbirth usually starts when which sac breaks?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:All of the populations that live in the same area make up what type of group, which includes populations of different organisms?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Cysteine is a type of what fundamental building block of protein?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Known for its beautiful rings, what is the second largest planet in the solar system?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:In what stage of their life cycle do insects begin developing their wings?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The lens focuses light on the retina , which covers the back of the inside of the eye. the retina has light-sensing photoreceptor cells called?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The concentration of the hydrogen ion in a solution can be calculated when what is known?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The number of what subatomic particles determines an element\u2019s atomic number and is used to distinguish one element from another?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Which sphincter is located at the stomach end of the esophagus and opens to allow the bolus to enter the stomach?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Water is considered a what since it is a polar molecule with slightly positive and slightly negative charges, so ions and polar molecules can readily dissolve in it?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Water seeps into the ground through permeable material and stops when it reaches what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the resultant waste product of photosynthesis?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the physical transformation of an insect moving through stages of life?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is the third class of elements after metals and nonmetals?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Chelicerae in spiders are often modified into fangs that perform what function?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:While numerous elements can undergo fission, only a few can be used as fuels in what nuclear devices?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The gap between two dna fragments is sealed by what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What are the most successful phylum of plants?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Free fatty acids are carboxylic acids that contain long chains of what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Schr\u00f6dinger\u2019s approach uses three quantum numbers (n, l, and ml) to specify any of what type of function, associated with a particular energy?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Proteins are polymers of what kind of acids?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Exemplified by organisms that grow in geysers, hyperthermophiles \"love\" what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What is an estimation of all of the organic matter available as food, and involves measuring biomass in terrestrial environments?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Railroad tracks and roadways can buckle on hot days if they lack sufficient what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What type of eclipse happens when a full moon moves through earth's shadow?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What can we learn about a wave by finding the product of the wavelength and frequency?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:How many types of basic sensory receptors are there?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:All types of cells are enclosed by what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Inside female cones, female spores develop into female what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Often represented by an arrow, a vector is a measurement that has both size and what?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What are gases called that absorb heat in the atmosphere?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:What in roundworms is a partial body cavity filled with fluid?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  }
+]

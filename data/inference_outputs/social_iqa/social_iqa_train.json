@@ -1,0 +1,902 @@
+[
+  {
+    "question": "Question:Jan decided to quit their job to get a better job as a banker.What will happen to Others?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Jesse set Robin's house on fire after finding out that she had been cheating on him for years.What will Robin want to do after?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Alex was no longer raising Sasha but she did give birth to Sasha.What will Alex want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Austin predicted cancer rates in patients would continue to go down due to the new breakthrough treatment they developed.How would Austin feel afterwards?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Alex took care of the children while their parents went out.How would Others feel as a result?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Alex grew closer to their sister after their parents died in a car accident.How would Alex feel afterwards?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:The beat was so funky and so fresh that Austin moved their body to the music.Why did Austin do this?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Kai had a leading flim business, but never embraced digital, 20 years later the company went the way of the dinosaur.How would you describe Kai?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Bailey expressed their thoughts in words.  He was always very expressive.What does Bailey need to do before this?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Riley fought Kendall in a battle that left Kendall with an injured leg.What will Kendall want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Remy challenged them to a game of racquetball at the local YMCA gym.Why did Remy do this?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Jan went off to college and found new friends.What will the friends want to do next?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Austin loved Sydney's neighbor that they asked their parents to move near them.What will Sydney want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Ash cannot function and be productive without having breakfast.What will Ash want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Robin went to the big party with Jan's friends after being invited.What will Robin want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Jenny wanted to found out what happened to Quinn's leg and read Quinn's book about his travels where he discussed his accident later in the first chapter.How would Jenny feel as a result?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Cameron had to put up or shut up during the blackjack game.How would Cameron feel afterwards?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Sydney went trick or treating and the others joined him happily.What will Others want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Austin moved their body from the crime scene so cops wouldn't find it.What will Austin want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Alex paid to get her car detailed and completely cleaned inside and out.What does Alex need to do before this?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Ash had the same breakfast of toast and scrambed eggs every day.How would you describe Ash?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:kai was an outrageous fool so he stole carson's tools.How would Carson feel as a result?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Robin's house was scheduled to be demolished. Jesse set Robin's house on fire.How would you describe Jesse?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Robin bought a new watch for Addison and put it on their wrist.What will happen to Addison?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Lee was being waited on my Taylors friend and tipped them well.Why did Lee do this?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Kai watched videos on youtube and there was one they really liked.How would you describe Kai?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Taylor was best friends with a co-worker, so they got lunch at the yummy pizza place.What will Taylor want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Lee gave birth to twins when she was at the hospital.What will Lee want to do next?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Lee had lost their job so they had a yard sell and sold things.Why did Lee do this?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Jan went out with Quinn's friends and had a great time.What does Jan need to do before this?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:sasha was bored so she gave bob a haircut for free.How would Others feel as a result?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Robin was very good at playing the flute and could play it long.What does Robin need to do before this?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:jan took them to NYC so that they could experience the city for the first time.What will Others want to do next?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Cameron felt unhappy but playing with his puppy cheered him up.How would Cameron feel afterwards?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Tracy crossed the rubicon because they wanted to cross it and be the best.What does Tracy need to do before this?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Remy and their friends were playing hide and seek in Remy's house. When they finished playing, it was very dark outside.Why did it become dark outside?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Riley was really hungry so she ate Jordan's bread.How would you describe Riley?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Kendall accidentally set her school on fire when she went in to change a test.What will Kendall want to do next?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Tracy crossed the rubicon because they wanted to cross it and be the best.What does Tracy need to do before this?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Jordan was very hungry so he went to a restaurant. Once served, he began to eat.How would you describe Jordan?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Addison invited Austin to join them to watch the movies.What will Addison want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:aubrey was a naturally sick person and therefore she took many medications during the years.How would you describe Aubrey?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Kai was only trying to make fun of Cameron although Cameron took Kai's compliment seriously.How would Cameron feel afterwards?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Robin went to school with Jan and went to her first class with her as well.What will Robin want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:austin went to the restaurant for dinner but wanted dessert instead.What will Austin want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Casey was hungry so they put food into the oven to cook.How would Others feel as a result?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Robin took a very long time to clean the windows of her house.How would you describe Robin?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Jan was practicing her singing for the whole day.Why did Jan do this?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Riley wanted to show off their cooking skills, so Riley made fish in the kitchen.What will Riley want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Kendall watched baseball every week to cheer for their favorite team.How would you describe Kendall?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Alex loved to watch tv so he spent most of his time up in his room with it on.Why did Alex do this?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Kendall bought anything required for a fun night on the town.What will Kendall want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Aubrey met no one at the park despite scheduling a meeting there with their informant.What will the informant want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Sasha wet the bed after drinking a large soda before bed.What does Sasha need to do before this?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Robin took her friend Skylar out for a nice dinner.What will happen to Skylar?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Skylar was able to ease their mind after receiving a good grade on the test.How would you describe Skylar?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Bailey was trying to kill Aubrey so Bailey held Aubrey's breath.What will Aubrey want to do next?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Cameron continued playing with the dog until their mother shouted that dinner was ready.What will Cameron want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Tracy's kids were hungry so Aubrey made food and fed the kids.What does Aubrey need to do before this?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Lee accidently met Austin at the park and they ended up having a great time together.How would Lee feel afterwards?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Bailey agreed to a date with their boss then had second thoughts and decided not to show up.How would you describe Bailey?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Austin was having a great day and felt wonderful.What will Austin want to do next?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Kai sat in Austin's lap because she wanted to show him more affection.What will Austin want to do after?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Robin told Carson that they needed some help with moving to a new home.What will Carson want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Tracy went camping during the weekend for the first time in their life.What does Tracy need to do before this?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Riley began to hurt inside and decided to call the doctor.What will Riley want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Alex paid the part time actor to go over the details of the play they were in.How would you describe Alex?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Robin went to the gym from work and spent all evening there before getting home late.What will Others want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Kendall got a new puppy from the pound. They showed all their friends.What will happen to Kendall?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:carson knew taylor was not skilled enough and taylor proved carson's point that day.How would Taylor feel afterwards?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Remy moved to a new city. They made more friends.Why did Remy do this?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Addison ate their bread and drank a nice glass of water with the bread.What will Addison want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Lee gave Taylor's friend a ride to the store when Taylor was unable to help.What will Taylor do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Casey was feeling pains in their arms and their chest.How would you describe Casey?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Jordan brought the family for a day out at the beach but when they got there Jordan realised that they had left the food at home for the picnic.How would you describe Jordan?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Jesse paid another bill for the others so they wouldn't get kicked out.What will Others want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Kai looked at Jan's picture and made it perfect.How would Jan feel as a result?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Taylor gave a raise and a promotion to Kendall.How would you describe Taylor?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Jan decided to go out so she called up Quinn's friends to hang out together.How would Quinn feel as a result?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Jan used Robin's approach on how to do well in a job interview.What will Jan want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Casey never received attention from boys so she went to go get a new haircut.What will Casey want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Riley told her dog Lee to \"stay\" so he didn't follow her down the street.Why did Riley do this?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Riley was tasked with selling Sydney's house. Riley sold the house to the highest bidder.What will Sydney want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:As it was part of his duties, Alex carried Robin into the execution.What will Alex want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Addison took the test in their science class after studying all night.What will Addison want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:skylar went shopping with friends in order to buy expensive clothes even though their friends were poor.What will Others want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Aubrey fulfilled Alex's requests.What will Aubrey want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Cameron's parents told them to do well at school or they would be grounded.  Cameron took their words seriously.What will happen to Cameron?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Austin gave the reader Lee an idea because he wanted to help out.How would Lee feel as a result?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:kendall was a hard worker so she kept the ball rolling on the project.Why did Kendall do this?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Carson tried to fight Robin last night while they were at a bar.How would Carson feel afterwards?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Aubrey and her friends stayed up all night having a slumber party, the house is now a wreck.What will Aubrey do when they leave?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Kai was at the farmer's market and they sold their cow to the bidder.What will Kai want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:After rushing to make it to the gate, Robin missed his flight, so Cameron picked him up from the airport.What will happen to Robin?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Quinn watched videos on friday night to have fun.What will Quinn want to do next?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Carson took pictures of all of the children at the birthday party.How would the parents feel as a result?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Aubrey kept their friends up at night with their music.What will happen to the friends?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Robin went with Jan's friends to the school carnival.What will Robin want to do next?\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Aubrey met a friend at the park and they decided to go play baseball.What will happen to Others?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:Skylar entered the principal's office at school to receive the appropriate discipline.How would you describe Skylar?\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  }
+]

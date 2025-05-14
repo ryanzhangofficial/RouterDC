@@ -1,0 +1,902 @@
+[
+  {
+    "question": "Question:do i need to put oil in a 2 stroke engine\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can an 18 year old sleep with a 15 year old\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is the ballroom at the top of the blackpool tower\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does the little boy die in life is beautiful\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does a flask count as an open container\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:are only commercial banks subject to\u200b runs\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does a soccer kick off have to go forward\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can i use cast iron pans on an induction hob\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is there a storyline in just cause 3\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can a polynomial have a square root of a variable\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is things fall apart based on a true story\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:are solar cells the same as solar panels\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is skyline drive part of the blue ridge parkway\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is the movie stepfather based on a true story\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:are lenscrafters and pearle vision the same company\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:were betty and jughead together in the comics\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is there a 3rd season of 800 words\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can you go to nba out of high school\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is there a player in the nfl missing a hand\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:are leeks in the same family as onions\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is the postmaster general appointed by the president\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:do you have to be literate to vote\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is all i wanna do based on a true story\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:has anyone ever died during a football game\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does mlb all star game determines home field\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is chewing tobacco banned in major league baseball\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can you sign free agents outside transfer window\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does a double barrel surname have to be hyphenated\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is red grapefruit the same as pink grapefruit\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:will there be another chucky movie after cult of chucky\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is fargo tv show based on a true story\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is israel part of the european economic area\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does left 4 dead 2 have a story\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is it healthy to be a sumo wrestler\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:do they still make new family guy episodes\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does a ruby and a sapphire make a garnet\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does poland spring water come from a spring\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:did dwyane wade make the playoffs his rookie year\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can an odd number be divided by an even number\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:are high rise and high waisted jeans the same\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can a nhl playoff game end in a tie\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is there a sequal to gone with the wind\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:was thanos in the first guardians of the galaxy\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is there a difference between a baritone and euphonium\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is the eyes part of the nervous system\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is ross dress for less a thrift store\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can you make prawn crackers in the microwave\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is a kilowatt hour a unit of power\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is it possible to have a triangle with two obtuse angles\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does penne alla vodka have dairy in it\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can you boat from lake michigan to atlantic ocean\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:was mary blind on little house on the prairie\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does anne of green gables end up with gilbert\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can a judge be removed from the bench\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is race 3 a continuation of race 2\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:was there a military draft in world war 2\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:did my name is earl finish his list\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:has croatia ever made it to the finals in the world cup\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:was michigan a state during the civil war\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is least squares the same as linear regression\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is a sermon the same as a homily\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:are the church of england and the anglican church the same\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:do you need to be on us soil to claim asylum\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is there a lift at earls court tube station\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:are rats and mice from the same family\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:do i have to give my name to a police officer\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:has kermit the frog been on sesame street\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is it law to wear a seatbelt uk\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:did civil war come out before age of ultron\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can an 18 year old sleep with a 15 year old\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can a player play in the europa league and champions league\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can you play ace 2 3 in rummy\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is there going to be another insurgent movie\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:did england ever win the soccer world cup\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:do they still make benson & hedges cigarettes\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can someone die from a bullet shot in the air\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is state bank of india and bank of india same\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is a dodge 3500 a 1 ton truck\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is cape lookout part of the outer banks\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is it 5 portions of fruit and 5 of vegetables\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:are sweet peppers and bell peppers the same\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is age of ultron connected to guardians of the galaxy\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:has scotland ever qualified for the world cup\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:can you play ace 2 3 in rummy\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:would you expect motor units to vary in size\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does hi-c orange have caffeine in it\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is it possible to run a mile in 2 minutes\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:has belgium ever been in world cup final\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does smeagol die in lord of the rings\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is the united states a part of the european union\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:has croatia ever placed in the world cup\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:will there be a season 7 of puss in boots on netflix\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does it cost money to renounce us citizenship\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is a no insurance ticket a moving violation\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does new york state have the death penalty\nAnswer:",
+    "scores": {
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is five guys only on the east coast\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:does indiana jones play a role in raiders\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:are all the songs in mama mia here we go again by abba\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:do bee stingers fall out on their own\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    },
+    "cluster_id": 0
+  },
+  {
+    "question": "Question:is a grade d at a level a pass\nAnswer:",
+    "scores": {
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    },
+    "cluster_id": 0
+  }
+]
