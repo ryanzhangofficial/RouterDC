@@ -328,69 +328,81 @@ class MessPlusAutomaticModelSelector:
                 entity=self.wandb_entity,
                 config=self.config
             ) as run:
-                    tokenizer = AutoTokenizer.from_pretrained(
-                        self.algorithm_config["router_encoder"],
-                        truncation_side="left",
-                        padding=True,
+
+                # 1) Load training questions for this benchmark
+                train_json_path = Path("data") / "inference_outputs" / task_output.task_name / f"{task_output.task_name}_train.json"
+                with open(train_json_path, "r") as f:
+                    train_entries = json.load(f)
+                train_questions = {entry["question"] for entry in train_entries}
+
+                # 2) Prepare model and tokenizer
+                tokenizer = AutoTokenizer.from_pretrained(
+                    self.algorithm_config["router_encoder"],
+                    truncation_side="left",
+                    padding=True,
+                )
+                encoder = DebertaV2Model.from_pretrained(self.algorithm_config["router_encoder"])
+                router_model = RouterModule(
+                    encoder,
+                    hidden_state_dim=self.algorithm_config["hidden_state_dim"],
+                    node_size=self.algorithm_config["node_size"],
+                    similarity_function=self.algorithm_config["similarity_function"],
+                ).to(device)
+
+                state = torch.load(
+                    self.algorithm_config["router_checkpoint_path"],
+                    map_location=device
+                )
+                router_model.load_state_dict(state)
+                router_model.eval()
+
+                monitor = ZeusMonitor(gpu_indices=[0], approx_instant_energy=True)
+                records = []
+
+                for timestamp, (doc_id, request_list) in enumerate(benchmark_documents_by_id.items()):
+                    text = request_list[0].doc
+
+                    # Skip if this query was in the training set
+                    if text in train_questions:
+                        continue
+
+                    inputs = tokenizer(
+                        text,
+                        max_length=self.algorithm_config.get("max_length", 512),
+                        truncation=True,
+                        padding="max_length",
+                        return_tensors="pt",
                     )
-                    encoder = DebertaV2Model.from_pretrained(self.algorithm_config["router_encoder"])
-                    router_model = RouterModule(
-                        encoder,
-                        hidden_state_dim=self.algorithm_config["hidden_state_dim"],
-                        node_size=self.algorithm_config["node_size"],
-                        similarity_function=self.algorithm_config["similarity_function"],
-                    ).to(device)
-                    state = torch.load(
-                        self.algorithm_config["router_checkpoint_path"],
-                        map_location=device
-                    )
-                    router_model.load_state_dict(state)
-                    router_model.eval()
+                    inputs = {k: v.to(device) for k, v in inputs.items()}
 
-                    monitor = ZeusMonitor(gpu_indices=[0], approx_instant_energy=True)
-                    records = []
+                    monitor.begin_window(f"route-{timestamp}")
+                    with torch.no_grad():
+                        logits, _ = router_model(**inputs)
+                    meas = monitor.end_window(f"route-{timestamp}")
+                    energy = sum(meas.gpu_energy.values())
 
-                    # 2) One pass over each document’s list of Instances
-                    for timestamp, (doc_id, request_list) in enumerate(benchmark_documents_by_id.items()):
-                        text = request_list[0].doc
-                        inputs = tokenizer(
-                            text,
-                            max_length=self.algorithm_config.get("max_length", 512),
-                            truncation=True,
-                            padding="max_length",
-                            return_tensors="pt",
-                        )
-                        inputs = {k: v.to(device) for k, v in inputs.items()}
+                    choice_int = int(logits.argmax(dim=1).item())
 
-                        monitor.begin_window(f"route-{timestamp}")
-                        with torch.no_grad():
-                            logits, _ = router_model(**inputs)
-                        meas   = monitor.end_window(f"route-{timestamp}")
-                        energy = sum(meas.gpu_energy.values())
+                    # Log to W&B
+                    wandb.log({
+                        "document_id":  doc_id,
+                        "model_choice": choice_int,
+                        "energy":       energy,
+                    }, step=timestamp, commit=True)
 
-                        # top‐1 expert index
-                        choice_int = int(logits.argmax(dim=1).item())
+                    records.append({
+                        "document_id":  doc_id,
+                        "model_choice": choice_int,
+                        "energy":       energy,
+                    })
 
-                        # log to W&B
-                        wandb.log({
-                            "document_id":  doc_id,
-                            "model_choice": choice_int,
-                            "energy":       energy,
-                        }, step=timestamp, commit=True)
+                # 4) Save per-task CSV
+                df = pd.DataFrame(records)
+                out_dir = results_root / task_output.task_name
+                out_dir.mkdir(exist_ok=True)
+                df.to_csv(out_dir / f"{task_output.task_name}_routerdc.csv", index=False)
 
-                        records.append({
-                            "document_id":  doc_id,
-                            "model_choice": choice_int,
-                            "energy":       energy,
-                        })
-
-                    # 3) Dump CSV
-                    df = pd.DataFrame(records)
-                    out_dir = results_root / task_output.task_name
-                    out_dir.mkdir(exist_ok=True)
-                    df.to_csv(out_dir / f"{task_output.task_name}_routerdc.csv", index=False)
-
-                    run.finish()
+                run.finish()
 
         ### Postprocess outputs ###
         task.apply_filters()
