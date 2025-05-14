@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-
-cd /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC
-
-# Hyperparameters
 top_k=3
 last_k=3
 training_steps=1000
@@ -12,19 +8,15 @@ sample_loss_weight=0
 cluster_loss_weight=1
 seeds=(1)
 
-# Make sure these directories exist
-mkdir -p results logs
-
 for seed in "${seeds[@]}"; do
   EXP_NAME="clw_${cluster_loss_weight}_slw_${sample_loss_weight}_tk_${top_k}_lk_${last_k}_lr_${learning_rate}_steps_${training_steps}_seed_${seed}"
   SAVE_DIR="$(pwd)/results/${EXP_NAME}"
-  LOG_FILE="$(pwd)/logs/${EXP_NAME}.log"
+  LOG_FILE="$(pwd)/results/logs/${EXP_NAME}.log"
 
   mkdir -p "${SAVE_DIR}"
-  echo "=== Experiment: ${EXP_NAME} ===" | tee -a "${LOG_FILE}"
+  echo "=== Starting experiment ${EXP_NAME} ===" | tee -a "${LOG_FILE}"
 
-  /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/ge56heh2/mess-plus/venv/bin/python \
-    train_router_mdeberta.py \
+  python -u train_router_mdeberta.py \
     --data_paths \
       data/inference_outputs/arc_challenge/arc_challenge_train.json \
       data/inference_outputs/arc_easy/arc_easy_train.json \
