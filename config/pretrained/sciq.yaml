@@ -51,14 +51,14 @@ classifier_model:
 algorithm:
   router_encoder: "microsoft/mdeberta-v3-base"
   hidden_state_dim: 768
-  node_size: 7
+  node_size: 3
   similarity_function: "cos"
   router_checkpoint_path: "/dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/results/clw_1_slw_0_tk_3_lk_3_lr_5e-5_steps_1000_seed_1/final_model.pth"
 
 lm_eval:
   # The run name will be the first benchmark in the list below.
   benchmarks: ["sciq"]
-  num_repeats: 3
+  num_repeats: 1
   limit_num_samples: null
   # TODO: Make sure we disable eager mode for the actual experiments to be as energy efficient as possible.
   enforce_eager: true
