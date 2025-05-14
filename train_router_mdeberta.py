@@ -140,6 +140,8 @@ def main():
     parser.add_argument('--sample_loss_weight', type=float, default=0)
     parser.add_argument('--cluster_loss_weight', type=float, default=1)
     parser.add_argument('--seed', type=int, default=42)
+    parser.add_argument('--similarity_function', type=str, default='cos')
+
     args = parser.parse_args()
 
     os.makedirs(args.save_path, exist_ok=True)
