@@ -793,4 +793,6 @@ if __name__ == "__main__":
     try:
         selector.launch()
     except KeyboardInterrupt or AttributeError:
+        pass
+    finally:
         selector.shutdown()
