@@ -26,4 +26,8 @@ sbatch winogrande.sbatch
 sleep 1
 # sbatch mmlu.sbatch
 
+# Concatenated experiment (uncomment to run)
+# sbatch non_iid_chained.sbatch
+# sleep 1
+
 echo "All jobs dispatched. Check slurm queue for status."
