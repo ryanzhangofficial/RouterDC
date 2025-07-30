@@ -368,6 +368,10 @@ if __name__ == '__main__':
     print("best avg", max_average)
     print("best training avg", max_training_average)
 
+    # save the final model (this is what evaluation script expects)
+    torch.save(router_model.state_dict(), os.path.join(args.save_path, "final_model.pth"))
+    print(f"Final model saved to: {os.path.join(args.save_path, 'final_model.pth')}")
+
     # save the model
     with open(os.path.join(args.save_path, "training_log.json"), 'w') as f:
         json.dump(training_log, f)

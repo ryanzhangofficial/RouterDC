@@ -592,7 +592,11 @@ class MessPlusAutomaticModelSelector:
         models = [i for i in self.vllm_models.keys()]
 
         for model_category in models:
-            del self.vllm_models[model_category]["vllm_eval_instance"].model.llm_engine.model_executor
+            # Check if vLLM instance exists before trying to clean it up
+            if (self.vllm_models[model_category]["vllm_eval_instance"] is not None and 
+                hasattr(self.vllm_models[model_category]["vllm_eval_instance"], "model") and
+                self.vllm_models[model_category]["vllm_eval_instance"].model is not None):
+                del self.vllm_models[model_category]["vllm_eval_instance"].model.llm_engine.model_executor
             del self.vllm_models[model_category]
 
         gc.collect()
