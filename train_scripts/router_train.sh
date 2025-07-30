@@ -18,17 +18,17 @@ for seed in "${seeds[@]}"; do
 
   python -u train_router_mdeberta.py \
     --data_paths \
-      data/inference_outputs/arc_challenge/arc_challenge_train.json \
-      data/inference_outputs/arc_easy/arc_easy_train.json \
-      data/inference_outputs/boolq/boolq_train.json \
-      data/inference_outputs/lambada_standard/lambada_standard_train.json \
-      data/inference_outputs/logiqa/logiqa_train.json \
-      data/inference_outputs/logiqa2/logiqa2_train.json \
-      data/inference_outputs/mmlu_abstract_algebra/mmlu_abstract_algebra_train.json \
-      data/inference_outputs/piqa/piqa_train.json \
-      data/inference_outputs/sciq/sciq_train.json \
-      data/inference_outputs/social_iqa/social_iqa_train.json \
-      data/inference_outputs/winogrande/winogrande_train.json \
+      data/inference_outputs/arc_challenge/arc_challenge_train_qwen.json \
+      data/inference_outputs/arc_easy/arc_easy_train_qwen.json \
+      data/inference_outputs/boolq/boolq_train_qwen.json \
+      data/inference_outputs/lambada_standard/lambada_standard_train_qwen.json \
+      data/inference_outputs/logiqa/logiqa_train_qwen.json \
+      data/inference_outputs/logiqa2/logiqa2_train_qwen.json \
+      data/inference_outputs/mmlu_abstract_algebra/mmlu_abstract_algebra_train_qwen.json \
+      data/inference_outputs/piqa/piqa_train_qwen.json \
+      data/inference_outputs/sciq/sciq_train_qwen.json \
+      data/inference_outputs/social_iqa/social_iqa_train_qwen.json \
+      data/inference_outputs/winogrande/winogrande_train_qwen.json \
     --batch_size 64 \
     --training_steps ${training_steps} \
     --learning_rate ${learning_rate} \
