@@ -57,7 +57,7 @@ for seed in "${seeds[@]}"; do
   # Invoke the host venv's Python (mounted) inside the container
   /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/ge56heh2/mess-plus/venv/bin/python train_router_mdeberta.py \
     --data_paths \
-      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/inference_outputs/non_iid_chained/non_iid_chained_qwen.json \
+      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/inference_outputs/non_iid_chained/non_iid_chained_train_qwen.json \
     --batch_size 64 \
     --training_steps ${training_steps} \
     --learning_rate ${learning_rate} \
