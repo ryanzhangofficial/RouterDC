@@ -1,0 +1,6512 @@
+[
+  {
+    "doc_id": 0,
+    "input_text": "Question: Based on the above statement, which of the following can be derived?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 1,
+    "input_text": "Question: So what are the three young people on business?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 2,
+    "input_text": "Question: According to the above statement, which of the following can be drawn about this Chinese medicine preparation?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 3,
+    "input_text": "Question: Which of the following can best strengthen the above argument",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 4,
+    "input_text": "Question: According to the above statement, it can be concluded that who is not in the fourth?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 5,
+    "input_text": "Question: According to the above statement, you can get which of the following?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 6,
+    "input_text": "Question: Which of the following is true will most weaken the above argument",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 7,
+    "input_text": "Question: The result of the match showed that only one argument was correct, so who won the championship?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 8,
+    "input_text": "Question: Which of the following is the conclusion must be assumed",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 9,
+    "input_text": "Question: Which of the following is assumed by the above argument",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 10,
+    "input_text": "Question: Which of the following is true is the best argument against the above argument",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 11,
+    "input_text": "Question: Which of the following can best question the above view?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 12,
+    "input_text": "Question: Which one, if true, most doubts the views of the above media",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 13,
+    "input_text": "Question: If it is true, can it most support the opinions of the above experts?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 14,
+    "input_text": "Question: Which of the following, if true, most doubts the opinions of the above experts?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 15,
+    "input_text": "Question: Based on the above statement, which of the following can be derived?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 16,
+    "input_text": "Question: Based on the above information, regarding the order of the five stations from west to east, which of the following is possible?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 17,
+    "input_text": "Question: If Jiushang Station is adjacent to Haoyun Station and east of Haoyun Station, it can be concluded that?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 18,
+    "input_text": "Question: If Hao Yun stands to the east of Jiushang Station, you can get?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 19,
+    "input_text": "Question: If Haoyun Station is adjacent to Yinling Station, you can get?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 20,
+    "input_text": "Question: Which of the following, if true, can best refute the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 21,
+    "input_text": "Question: Which of the following, if true, will best support the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 22,
+    "input_text": "Question: Which of the following, if true, best supports the above researchers ’views?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 23,
+    "input_text": "Question: Regarding the overall average price of residential housing in the above three cities, which of the following judgments is wrong?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 24,
+    "input_text": "Question: Which of the following is most appropriate as a corollary of the above discussion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 25,
+    "input_text": "Question: Which of the following, if true, would best support the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 26,
+    "input_text": "Question: Which of the following must be selected?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 27,
+    "input_text": "Question: If Guo Yanran is selected, which of the following must also be selected?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 28,
+    "input_text": "Question: If He Zhilian is not selected, which of the following is not selected?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 29,
+    "input_text": "Question: If Tang Xiaohua is selected, which two of the following must be selected?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 30,
+    "input_text": "Question: Which of the following, if true, best supports the above-mentioned scientists ’speculation?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 31,
+    "input_text": "Question: Which of the following, if true, would best refute the views of ordinary people?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 32,
+    "input_text": "Question: Which of the following is true to best refute the above speculation?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 33,
+    "input_text": "Question: Which of the following, if true, can best refute the views of the above scientists?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 34,
+    "input_text": "Question: Which of the following, if true, can best refute the views of the above scientists?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 35,
+    "input_text": "Question: In order from bottom to top, which of the following matches the distribution of the above floors?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 36,
+    "input_text": "Question: If the Human Resources Department is not at the upper level of the Administration Department, which of the following may be correct?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 37,
+    "input_text": "Question: If the human resources department is not on the top floor, the floors that the R & D department may be on are?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 38,
+    "input_text": "Question: If the Finance Department is on the third level, which of the following may be correct?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 39,
+    "input_text": "Question: Which of the following may be the two departments where the first and second tiers are located?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 40,
+    "input_text": "Question: Which of the following is most similar to the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 41,
+    "input_text": "Question: Which of the following, if true, would best refute the above experimental conclusion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 42,
+    "input_text": "Question: Which of the following, if true, can best refute the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 43,
+    "input_text": "Question: Which of the following, if true, would best support the above research findings?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 44,
+    "input_text": "Question: Regarding the newly recruited researchers of the unit in 2013, which of the following judgments is correct?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 45,
+    "input_text": "Question: Which of the following, if true, best supports the idea of ​​gradually extending the retirement age?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 46,
+    "input_text": "Question: Which of the following, if true, would weaken the above argument most?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 47,
+    "input_text": "Question: Which of the following is most suitable as a corollary of the above discussion",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 48,
+    "input_text": "Question: Which of the following, if true, would best refute the arguments of the above supporters?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 49,
+    "input_text": "Question: Which of the following is most important for evaluating the above conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 50,
+    "input_text": "Question: Which of the following conclusions can be drawn from the above conclusions?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 51,
+    "input_text": "Question: Which of the following is most helpful in eliminating this inconsistency?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 52,
+    "input_text": "Question: The comments of Ukrainian observers are best used to refute which of the following?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 53,
+    "input_text": "Question: Which of the following can most question the above view?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 54,
+    "input_text": "Question: Which of the following can guarantee the correctness of the above statement?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 55,
+    "input_text": "Question: If you want to get the conclusion that the plane was hijacked by a terrorist organization, which of the following should be added?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 56,
+    "input_text": "Question: Which of the following can best question the above research conclusions?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 57,
+    "input_text": "Question: Which of the following is most similar to the above reasoning?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 58,
+    "input_text": "Question: Which of the following is most likely the hypothesis of the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 59,
+    "input_text": "Question: Which of the following can best question the decision of the city government?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 60,
+    "input_text": "Question: Which of the following means exactly the same as the above assertion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 61,
+    "input_text": "Question: Which of the following can weaken Lao Zhang ’s suggestion the most?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 62,
+    "input_text": "Question: Which of the following best refutes the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 63,
+    "input_text": "Question: Which of the following raises the most serious question to the above conclusion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 64,
+    "input_text": "Question: Which of the following may be correct?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 65,
+    "input_text": "Question: Which of the following must be correct?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 66,
+    "input_text": "Question: Which of the following is correct, you can determine the employer of each graduate?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 67,
+    "input_text": "Question: If Liu was hired by Tianxuan, which of the following must be wrong?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 68,
+    "input_text": "Question: According to this statistic, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 69,
+    "input_text": "Question: The decision of the academic conference organizing committee is most likely based on which of the following assumptions?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 70,
+    "input_text": "Question: Which of the following can best question the blogger ’s conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 71,
+    "input_text": "Question: Which of the following can most strongly support the views of the above jurists?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 72,
+    "input_text": "Question: Which of the following best supports the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 73,
+    "input_text": "Question: If only one sentence of the analyst ’s prediction is correct, who is the first?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 74,
+    "input_text": "Question: Which of the following is most similar to the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 75,
+    "input_text": "Question: If the above statement is true, which of the following cannot be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 76,
+    "input_text": "Question: Which of the following conclusions can be made based on the above discussion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 77,
+    "input_text": "Question: Which of the following can guarantee the correctness of the above statement?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 78,
+    "input_text": "Question: Which of the following is most similar to the question-making argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 79,
+    "input_text": "Question: Which of the following, if true, would most weaken the above arguments and suggestions?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 80,
+    "input_text": "Question: Which of the following most appropriately summarizes the loopholes in the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 81,
+    "input_text": "Question: Based on the above conclusions, which of the following conclusions is most likely to be drawn?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 82,
+    "input_text": "Question: Which of the following most accurately summarizes the controversial focus of Ms. Zheng and Mr. Hu?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 83,
+    "input_text": "Question: Which of the following, if true, would most weaken the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 84,
+    "input_text": "Question: Which of the following most appropriately summarizes the loopholes in the conclusions of the Peace Foundation?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 85,
+    "input_text": "Question: If the following items are true, they can weaken the above argument, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 86,
+    "input_text": "Question: If the following item is true, can the argument be strengthened most?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 87,
+    "input_text": "Question: Which of the following, if true, would most weaken the above conclusions of the government of Country H?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 88,
+    "input_text": "Question: Which of the following is most likely assumed by the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 89,
+    "input_text": "Question: Which of the following most accurately summarizes the method Xiao Wang used to refute Xiao Chen's views?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 90,
+    "input_text": "Question: How many guests did Mr. Chen come forward to invite?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 91,
+    "input_text": "Question: The logic loophole in the above argument is most similar to the following one?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 92,
+    "input_text": "Question: The following assumptions can make the above inference hold, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 93,
+    "input_text": "Question: Based on the above experiment, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 94,
+    "input_text": "Question: Which of the following most appropriately points out the loophole of the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 95,
+    "input_text": "Question: An analogy with which of the following inferences shows that the above inferences are not true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 96,
+    "input_text": "Question: If the above determination is true, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 97,
+    "input_text": "Question: Which of the following, if true, would most weaken the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 98,
+    "input_text": "Question: Kobayashi is most likely to understand the rules of swimming as?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 99,
+    "input_text": "Question: Which of the following, if true, would most weaken the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 100,
+    "input_text": "Question: If the above determination is true, which of the following must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 101,
+    "input_text": "Question: Which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 102,
+    "input_text": "Question: If F and M are not in charge of the same department, which of the following must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 103,
+    "input_text": "Question: Which of the following options is the closest to the meaning of this maxim?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 104,
+    "input_text": "Question: Which of the following supplements will most strongly support the reasoning in the question stem?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 105,
+    "input_text": "Question: Which of the following conclusions can be deduced from the above discussion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 106,
+    "input_text": "Question: Which of the following reasoning clearly shows that the above argument is not valid?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 107,
+    "input_text": "Question: Which of the following, if true, best supports the doctor ’s conclusion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 108,
+    "input_text": "Question: Now we need to open the No. 1 valve, which two valves are to be opened at the same time?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 109,
+    "input_text": "Question: Which of the following questions is most relevant for refuting the above reasoning?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 110,
+    "input_text": "Question: Which of the following options is not the implied meaning or conclusion that can be derived?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 111,
+    "input_text": "Question: It turned out that only one of the three instructors was right. Which one of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 112,
+    "input_text": "Question: Which of the following best explains the contradictory statement above?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 113,
+    "input_text": "Question: Which of the following options is a correct evaluation of the company and its contract?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 114,
+    "input_text": "Question: If the above proposition is true, then which of the following must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 115,
+    "input_text": "Question: These people's suspicions are based on which of the following unstated premises?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 116,
+    "input_text": "Question: Who can meet all the requirements of Li Na?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 117,
+    "input_text": "Question: Which of the following cannot be a logical inference from the above conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 118,
+    "input_text": "Question: Which of the following, if true, is the most doubtful of the above conclusion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 119,
+    "input_text": "Question: Which of the following, if true, best supports the scientist ’s conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 120,
+    "input_text": "Question: Since the conclusion of \"friends like dung\" is not true, it can be logically derived?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 121,
+    "input_text": "Question: The following are all questions about the above views, except?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 122,
+    "input_text": "Question: According to the above situation, we know that the winner is",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 123,
+    "input_text": "Question: Which sentence is most appropriate for the following?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 124,
+    "input_text": "Question: Which of the following options is not a logical inference from the above sentence?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 125,
+    "input_text": "Question: The above conclusion is based on which of the following assumptions?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 126,
+    "input_text": "Question: Which of the following is most important for evaluating the decision of the supermarket management?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 127,
+    "input_text": "Question: If the above theory about the origin of the moon is correct, which one of the following conclusions can best be supported?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 128,
+    "input_text": "Question: Which of the following supplements can explain the inconsistency between the total number of people mentioned in the question stem and the number of people with different identities?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 129,
+    "input_text": "Question: If the No. 6 player plays in the final, which of the following must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 130,
+    "input_text": "Question: Which of the following is most helpful in explaining the Osprey ’s predatory habits mentioned above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 131,
+    "input_text": "Question: Which of the following, if true, cannot weaken the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 132,
+    "input_text": "Question: Based on your understanding, which of the following options is most appropriate as the definition of \"bottom line ethics\"?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 133,
+    "input_text": "Question: Which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 134,
+    "input_text": "Question: Which of the following, if correct, is most helpful in explaining the contradictions in the above statement?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 135,
+    "input_text": "Question: Which of the following is different from the expression in the stem?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 136,
+    "input_text": "Question: To verify this conclusion, which of the following experimental methods is the most reliable?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 137,
+    "input_text": "Question: Which of the following, if proven, can reasonably lead to the salesperson ’s conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 138,
+    "input_text": "Question: Which of the following options is the same as the argument in the question stem?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 139,
+    "input_text": "Question: Which of the following is a correct description of the four assertions in the stem?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 140,
+    "input_text": "Question: In order to make the last sentence in the subject a logical inference from the previous sentences, which of the following premises needs to be added?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 141,
+    "input_text": "Question: If the scientist ’s proposal to control the European fern is adopted, which of the following is necessary for its success?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 142,
+    "input_text": "Question: Which of the following options most clearly shows the absurdity of the above reasoning?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 143,
+    "input_text": "Question: Which of the following provides the strongest support for the argument in the question stem?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 144,
+    "input_text": "Question: If S and Z are now connected at the same time, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 145,
+    "input_text": "Question: Based on the above conditions, which of the following must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 146,
+    "input_text": "Question: Each of the following patients can be treated by Dr. Li, except which one?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 147,
+    "input_text": "Question: If E is treated by Dr. Wang, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 148,
+    "input_text": "Question: If Dr. Li is responsible for the treatment of G, which of the following may be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 149,
+    "input_text": "Question: According to the question, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 150,
+    "input_text": "Question: If Jesse goes to Dalian, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 151,
+    "input_text": "Question: If the conclusion of the question is true, which two people cannot go to Hangzhou at the same time?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 152,
+    "input_text": "Question: Based on the question, can you determine which of the following options is true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 153,
+    "input_text": "Question: Which of the following options can be derived from the above questions?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 154,
+    "input_text": "Question: Which of the following is true will raise the most doubts about the opinions of the above experts?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 155,
+    "input_text": "Question: If the essayist's statement is true, which of the following options cannot be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 156,
+    "input_text": "Question: Which of the following options does not apply to Bush ’s logic?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 157,
+    "input_text": "Question: If the above items are true, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 158,
+    "input_text": "Question: The above argument is based on which of the following unstated premises?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 159,
+    "input_text": "Question: Which of the following options uses the same reasoning method as in the question stem?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 160,
+    "input_text": "Question: The fact that Liu Xiang won the championship and his words do not constitute a rebuttal to which of the following assertions?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 161,
+    "input_text": "Question: Which of the following conclusions can be drawn from the above statement?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 162,
+    "input_text": "Question: If the statement in the stem is true, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 163,
+    "input_text": "Question: If only one of the above three sentences is true, which of the following must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 164,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 165,
+    "input_text": "Question: Which of the following is true will most strongly indicate that the above explanation is incorrect?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 166,
+    "input_text": "Question: Based on the above, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 167,
+    "input_text": "Question: Which of the following arguments contains defects most similar to those in the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 168,
+    "input_text": "Question: Which of the following is most helpful in explaining the phenomenon mentioned in the title, that is, the result of the throw is determined by certain factors, but it is difficult to predict?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 169,
+    "input_text": "Question: Which of the following statements must be assumed in the above reasoning?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 170,
+    "input_text": "Question: Which of the following options is closest to what Premier Wen Jiabao said above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 171,
+    "input_text": "Question: Which of the following, if true, best supports the scientist ’s conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 172,
+    "input_text": "Question: Based on the above questions, which of the following options for night duty is true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 173,
+    "input_text": "Question: Which of the following statements is based on the assumptions that the above argument relies on?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 174,
+    "input_text": "Question: If the above statement is true, which of the following best confirms the expert's warning?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 175,
+    "input_text": "Question: Assuming that the death penalty cannot prevent crime, then in which of the following ways will Zhang Shan and Li Si ’s views be affected?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 176,
+    "input_text": "Question: Students are most likely to understand the professor ’s statement as?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 177,
+    "input_text": "Question: Which of the following must be assumed in the above conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 178,
+    "input_text": "Question: Which of the following is the speaker who is most willing to answer the question?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 179,
+    "input_text": "Question: Which of the following statements is true, which weakens the argument most strongly?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 180,
+    "input_text": "Question: Which of the following, if correct, will best reconcile the inconsistencies between the information in the question?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 181,
+    "input_text": "Question: The above argument cannot be derived?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 182,
+    "input_text": "Question: Which of the following sentences is different from the above sentence?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 183,
+    "input_text": "Question: If any of the following is true, it is most helpful to explain why sucrose kills bacteria deep in the wound?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 184,
+    "input_text": "Question: Which one of the following correctly describes David's choice?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 185,
+    "input_text": "Question: Regarding the meaning of the relevant words in this cryptographic language, which of the following statements may be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 186,
+    "input_text": "Question: Which of the following is true can raise greater doubts about the above conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 187,
+    "input_text": "Question: The above example best illustrates which of the following scientific statements?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 188,
+    "input_text": "Question: Which of the following results can be derived from the above conditions?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 189,
+    "input_text": "Question: Which of the following is the assumption on which the above argument is based?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 190,
+    "input_text": "Question: If the above statement is true, which of the following options will it most strongly support?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 191,
+    "input_text": "Question: The above argument must assume which of the following?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 192,
+    "input_text": "Question: If J is the first speaker, who must be the second speaker?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 193,
+    "input_text": "Question: If J is the fourth speaker, who must be the third speaker?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 194,
+    "input_text": "Question: If L speaks before lunch and M is not the sixth speaker, the speaker immediately after M must be?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 195,
+    "input_text": "Question: If the speeches of M and N are separated by lunch, which of the following lists all speakers that can be arranged between M and N?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 196,
+    "input_text": "Question: If J speaks before F, how many N can be ranked?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 197,
+    "input_text": "Question: Which of the following four players can participate in the game together?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 198,
+    "input_text": "Question: Which of the following players will definitely participate in the game?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 199,
+    "input_text": "Question: Which of the following listed players cannot participate in the game together?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 200,
+    "input_text": "Question: If H does not participate in the game, which of the following two players must be included in the game?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 201,
+    "input_text": "Question: Which two of the following players will be selected by the coach to make the four-person team the only choice?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 202,
+    "input_text": "Question: In order to deduce the above conclusions logically, it is necessary to assume which of the following is the premise?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 203,
+    "input_text": "Question: Which of the following statements can best complete the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 204,
+    "input_text": "Question: Which of the following statements is the assumption upon which the above argument relies?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 205,
+    "input_text": "Question: Which of the following, if true, is the most doubtful of an assertion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 206,
+    "input_text": "Question: If the above statement is true, which of the following conclusions can best be supported?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 207,
+    "input_text": "Question: Which of the following cannot be derived from the above sentence?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 208,
+    "input_text": "Question: If the above items are true, which of the following items must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 209,
+    "input_text": "Question: Which of the following statements is the assumption upon which the above argument relies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 210,
+    "input_text": "Question: Which of the following statements is the assumption upon which the above argument relies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 211,
+    "input_text": "Question: Which of the following is closest to the meaning of the above paragraph?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 212,
+    "input_text": "Question: Which of the following is the hypothetical hypothesis of this scientist?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 213,
+    "input_text": "Question: Which of the following does not constitute doubt or rebuttal to the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 214,
+    "input_text": "Question: Which of the following questions is most important for commenting on the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 215,
+    "input_text": "Question: If the above statement is true, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 216,
+    "input_text": "Question: Which of the following options can logically complete the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 217,
+    "input_text": "Question: Which of the following statements is the assumption upon which the above argument relies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 218,
+    "input_text": "Question: Which of the following does not constitute a rebuttal to the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 219,
+    "input_text": "Question: Which of the following questions does not constitute a doubt about the reliability of the above research conclusion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 220,
+    "input_text": "Question: Which of the following methods is most helpful to prove the reliability of the above research conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 221,
+    "input_text": "Question: If the above is true, which statement is most strongly supported?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 222,
+    "input_text": "Question: If all of the above are true, which of them strongly supports the following statement?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 223,
+    "input_text": "Question: If the above statement is true, which of the following statements cannot be false?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 224,
+    "input_text": "Question: If the above statement is true, which statement cannot be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 225,
+    "input_text": "Question: If the following statement is true, in addition to which one can provide a reasonable explanation for the above exception?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 226,
+    "input_text": "Question: The following hypothesis can give the strongest support for the above reasoning?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 227,
+    "input_text": "Question: Which of the following, if true, can best explain the flow of most of the 100 billion yuan savings funds?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 228,
+    "input_text": "Question: If the above statement is true, which statement is best supported?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 229,
+    "input_text": "Question: Which of the following is the hypothesis that the above argument relies on?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 230,
+    "input_text": "Question: Which of the following statements about the situation over the past five years is the assumption upon which the above discussion relies?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 231,
+    "input_text": "Question: Which of the following can most strongly support the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 232,
+    "input_text": "Question: Which of the following is the obvious meaning of the above sentence?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 233,
+    "input_text": "Question: If the above statement is true, which of the following conclusions is most strongly supported?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 234,
+    "input_text": "Question: Which of the following statements gives the most reasonable explanation for the change in the above problem?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 235,
+    "input_text": "Question: Which of the following most accurately describes the shortcomings of the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 236,
+    "input_text": "Question: Which of the following statements is the hypothesis upon which the superior argument depends?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 237,
+    "input_text": "Question: Which of the following cannot be derived from the meaning of the title?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 238,
+    "input_text": "Question: If the following statement is true, which one will weaken the above conclusion most seriously?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 239,
+    "input_text": "Question: Which of the following is true and can raise the most doubts about this official ’s argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 240,
+    "input_text": "Question: If the following statements are true, except for which one can weaken the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 241,
+    "input_text": "Question: Which of the following statements is the assumption upon which the above argument relies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 242,
+    "input_text": "Question: Which of the following lists are acceptable member choices for these two groups?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 243,
+    "input_text": "Question: If the members of the printing group are composed of F, H, L, and M, and the members of the binding group are composed of G, H, and J, then K can replace which member of the two groups without violating any of the given conditions?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 244,
+    "input_text": "Question: If the printing group has only three members, G, H, and L, and under sufficient conditions, the two groups have as many common members as possible, then which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 245,
+    "input_text": "Question: If both K and L are members of both groups, and the printing group has exactly three members, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 246,
+    "input_text": "Question: How many employees can be a member of printing group and binding group at most?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 247,
+    "input_text": "Question: Which of the following lists are acceptable arrangements for the second team's performance?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 248,
+    "input_text": "Question: If H is in Team 2, which of the listed arrangements is acceptable for Team 1?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 249,
+    "input_text": "Question: Which of the following is an acceptable arrangement for the first team's performance?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 250,
+    "input_text": "Question: If G is in team 1, which pair of magicians can be in team 1?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 251,
+    "input_text": "Question: If G is in team 1 and K is in team 2, which of the following magicians must be behind team 2?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 252,
+    "input_text": "Question: If the following items are true, can the above opinions be questioned, except?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 253,
+    "input_text": "Question: Which conclusion is most appropriate to derive from the question stem?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 254,
+    "input_text": "Question: If the above statement is true, which of the following statements cannot be false?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 255,
+    "input_text": "Question: Which of the following conclusions can be derived from the above statement?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 256,
+    "input_text": "Question: Which of the following most accurately points out the fallacy of this statistical reasoning?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 257,
+    "input_text": "Question: Which of the following statements is the most appropriate conclusion for the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 258,
+    "input_text": "Question: Which of the following can most logically complete the above discussion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 259,
+    "input_text": "Question: If this team does not go to I Peak due to climate reasons, which of the following must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 260,
+    "input_text": "Question: Which of the following options does not help explain the gap between the statistics in the question and the people ’s feelings?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 261,
+    "input_text": "Question: If the findings in the above survey are correct, which of the following conclusions can be drawn based on this?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 262,
+    "input_text": "Question: If any of the following is true, can you raise the most doubts about this expert's point of view?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 263,
+    "input_text": "Question: Which of the following is true will prove that at least one of the premises of the above reasoning is false?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 264,
+    "input_text": "Question: Which of the following statements is the assumption upon which the above argument relies?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 265,
+    "input_text": "Question: Which of the following, if true, can give the economist ’s assertion the greatest support?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 266,
+    "input_text": "Question: The following options all support the point of view in the question, except?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 267,
+    "input_text": "Question: The assumptions relied upon by the above comments are?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 268,
+    "input_text": "Question: Which of the following, if true, best supports Li Ming ’s point of view?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 269,
+    "input_text": "Question: Which of the following options is a proper evaluation of the \"me\" reasoning?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 270,
+    "input_text": "Question: Which of the following statements is true and seriously weakens the views in the above discussion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 271,
+    "input_text": "Question: Which of the following options poses the weakest question to the point of view in the question?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 272,
+    "input_text": "Question: Please determine which of the following options is true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 273,
+    "input_text": "Question: Which of the following statements, if true, weakens the above argument the most?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 274,
+    "input_text": "Question: Which of the following, if true, can weaken the above argument to the greatest extent?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 275,
+    "input_text": "Question: Which of the following does not question the reliability of statistical inference?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 276,
+    "input_text": "Question: Which of the following options most strongly supports the argument in the question?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 277,
+    "input_text": "Question: Which of the following, if true, can explain this seemingly contradictory attitude of Beijing taxi drivers?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 278,
+    "input_text": "Question: Which of the following questions is most relevant for evaluating the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 279,
+    "input_text": "Question: The reasoning in which of the following is most similar to the one above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 280,
+    "input_text": "Question: Which of the following can most logically complete the above discussion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 281,
+    "input_text": "Question: Please logically predict the result of the match based on the question?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 282,
+    "input_text": "Question: The order of the five islands from north to south can be?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 283,
+    "input_text": "Question: If G is adjacent to I and to the north of I, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 284,
+    "input_text": "Question: If I is at a position north of G, which of the following states that positioning is true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 285,
+    "input_text": "Question: If it is found that G is the northernmost island, how many possible arrangements are there for this group of islands?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 286,
+    "input_text": "Question: If G and E are adjacent, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 287,
+    "input_text": "Question: If the information in the stem is true, which of the following conclusions will be confirmed?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 288,
+    "input_text": "Question: Which of the following, if true, can explain the above contradiction?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 289,
+    "input_text": "Question: Which of the following does not weaken, but supports the argument in the question stem?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 290,
+    "input_text": "Question: Which of the following is the hypothesis discussed by the economist?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 291,
+    "input_text": "Question: Which of the following options does not support the argument in the question stem?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 292,
+    "input_text": "Question: If the following items are true, you can question the above points, except?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 293,
+    "input_text": "Question: If the premises in the question stem are true, you can infer?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 294,
+    "input_text": "Question: If the above statement is true, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 295,
+    "input_text": "Question: Logically, which of the following is an appropriate evaluation of the argument in the question?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 296,
+    "input_text": "Question: Which of the following is most consistent with the principles discussed above?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 297,
+    "input_text": "Question: Which of the following may list the final distribution of these 7 employees?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 298,
+    "input_text": "Question: Which of the following lists is a complete and accurate list that cannot be assigned to the production department?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 299,
+    "input_text": "Question: If which of the following statements is true, can the distribution of 7 employees be completely determined?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 300,
+    "input_text": "Question: Which of the following pairs of employees is unlikely to be assigned to the sales department?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 301,
+    "input_text": "Question: If X and F are assigned to the same department, which of the following statements cannot be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 302,
+    "input_text": "Question: If we add\" life does not mean emptiness \"to the above argument, what other conclusion can this philosopher draw?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 303,
+    "input_text": "Question: In answering the reporter's question, the professor used the strategy expressed in which of the following statements?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 304,
+    "input_text": "Question: Which of the following statements is the hypothesis on which this parent ’s inference relies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 305,
+    "input_text": "Question: Which of the following statements, if true, can reasonably explain the seemingly contradictory phenomenon?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 306,
+    "input_text": "Question: Which of the following statements, if true, can best explain the seemingly contradictory phenomenon?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 307,
+    "input_text": "Question: Which of the following statements is the hypothesis on which this critic ’s conclusion relies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 308,
+    "input_text": "Question: Which of the following demonstration techniques is used in the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 309,
+    "input_text": "Question: If the following statements are true, they can weaken Rachel. Carson's conclusion, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 310,
+    "input_text": "Question: Which of the following statements, if true, can weaken the conclusion of the above argument most effectively? ’",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 311,
+    "input_text": "Question: Which of the following statements is the assumption upon which the above argument relies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 312,
+    "input_text": "Question: Which of the following is the same as the method of argument of the Japanese Supreme Court?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 313,
+    "input_text": "Question: Which of the following conclusions can be derived from the above statement?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 314,
+    "input_text": "Question: Which of the following statements is most suitable as a conclusion derived from the above discussion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 315,
+    "input_text": "Question: The reasoning in the above argument is flawed because the argument",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 316,
+    "input_text": "Question: If the following options are true, they can support the expert's point of view, except-",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 317,
+    "input_text": "Question: Which of the following will be the strongest support for the above conclusion if it is true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 318,
+    "input_text": "Question: Which of the following statements best describes the flaws of the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 319,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 320,
+    "input_text": "Question: Which of the following statements, if true, can weaken the above argument most effectively?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 321,
+    "input_text": "Question: Which of the following conclusions can be derived from the above statement?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 322,
+    "input_text": "Question: Which of the following statements is the assumption upon which the above argument relies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 323,
+    "input_text": "Question: Which of the following expressions does not agree with the expression above?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 324,
+    "input_text": "Question: If the following items are true, all inconsistencies in the above may be reasonably explained, except",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 325,
+    "input_text": "Question: If the following items are true, they will enhance the confidence of this reporter, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 326,
+    "input_text": "Question: Which of the following, if true, can weaken the above argument most effectively?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 327,
+    "input_text": "Question: Which of the following statements is the assumption upon which the above argument relies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 328,
+    "input_text": "Question: Which of the following statements, if true, can weaken the argument most strongly?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 329,
+    "input_text": "Question: Which of the following conclusions can be derived from the above discussion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 330,
+    "input_text": "Question: This shows which of the following can most logically complete the above discussion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 331,
+    "input_text": "Question: If Xiao Wang told Xiao Zhao all the truth, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 332,
+    "input_text": "Question: If the above statement is true, then the following must be true, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 333,
+    "input_text": "Question: Which of the following statements is an implicit assumption in police remarks?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 334,
+    "input_text": "Question: Which of the following statements, if true, can weaken the above conclusion most effectively?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 335,
+    "input_text": "Question: Which of the following statements best describes the flaws of the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 336,
+    "input_text": "Question: Which of the following statements, if correct, can weaken the above conclusion most effectively?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 337,
+    "input_text": "Question: Which of the following, if true, can best strengthen Zhang Tao ’s objections?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 338,
+    "input_text": "Question: Which of the following statements, if true, paid the strongest criticism of the company ’s general manager on the human resources department ’s proposal?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 339,
+    "input_text": "Question: The following items can be derived from Loren Barra ’s exposition, except?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 340,
+    "input_text": "Question: Which of the following statements, if true, can weaken the above argument most effectively?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 341,
+    "input_text": "Question: The above argument is wrong because it?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 342,
+    "input_text": "Question: Which of the following may list eligible cultivation arrangements?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 343,
+    "input_text": "Question: If s is planted in an even-numbered vegetable pool, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 344,
+    "input_text": "Question: If S and Q are planted in odd-numbered vegetable ponds, which of the following statements may be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 345,
+    "input_text": "Question: Which of the following statements cannot be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 346,
+    "input_text": "Question: If the H species is in No. 2 Caichizi, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 347,
+    "input_text": "Question: Which of the following statements may be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 348,
+    "input_text": "Question: If there is an I in the subcommittee where M serves, which of the following statements may be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 349,
+    "input_text": "Question: If F and M are not members of the same subcommittee, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 350,
+    "input_text": "Question: Which of the following statements must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 351,
+    "input_text": "Question: Which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 352,
+    "input_text": "Question: If the above statement is true, which of the following statements must be false?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 353,
+    "input_text": "Question: In order for the above conclusion to be true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 354,
+    "input_text": "Question: If any of the following statements are true, can the above argument be weakened most effectively?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 355,
+    "input_text": "Question: If this saying is true, which of the following statements must be false?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 356,
+    "input_text": "Question: If any of the following statements are true, can the above argument be weakened most effectively?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 357,
+    "input_text": "Question: A lot of meaningless words can cause people to respond positively or negatively. \" Which of the following roles does this assertion play in the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 358,
+    "input_text": "Question: The following statements, except which one, can explain this American approach?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 359,
+    "input_text": "Question: If any of the following statements is true, can the biggest question be raised?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 360,
+    "input_text": "Question: Which argument is most similar to the reasoning above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 361,
+    "input_text": "Question: Which of the following statements is the most accurate summary of the features of form and potential mentioned above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 362,
+    "input_text": "Question: If which of the following statements is true, can the Czech official's assertion be questioned the most?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 363,
+    "input_text": "Question: Which of the following statements has the most serious inconsistency with Chen Guangfang ’s assertion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 364,
+    "input_text": "Question: If any of the following statements is true, is it most advantageous to strengthen the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 365,
+    "input_text": "Question: If any of the following statements, can the above conclusion be reached logically?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 366,
+    "input_text": "Question: If the following statement is true, in addition to which statement, can you question the conclusion of the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 367,
+    "input_text": "Question: Which of the following statements does not support the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 368,
+    "input_text": "Question: If any of the following statements are true, can the above argument be strengthened most effectively?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 369,
+    "input_text": "Question: Which of the following statements best matches the economist ’s description of the difference between normal and low-grade products?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 370,
+    "input_text": "Question: Which of the following statements is the logical conclusion of the economist ’s argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 371,
+    "input_text": "Question: If which of the following statements is true, which strongly supports the expert's point of view?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 372,
+    "input_text": "Question: Adding the following statement, this official can come to the conclusion that \"China has not plundered African resources\"?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 373,
+    "input_text": "Question: Which of the following statements contains the reasoning errors most similar to the ones above?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 374,
+    "input_text": "Question: Which of the following statements is the assumption that led to the above conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 375,
+    "input_text": "Question: Based on the above statement, please determine which of the following statements is false?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 376,
+    "input_text": "Question: Which of the following statements most accurately indicates the error in the above reasoning?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 377,
+    "input_text": "Question: Which of the following statements is the assumption upon which the above argument relies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 378,
+    "input_text": "Question: If the above statement is true, which of the following statements must be false?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 379,
+    "input_text": "Question: If any of the following statements is true, can the above argument be weakened most effectively?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 380,
+    "input_text": "Question: The answer to which of the following questions would hardly question the conclusion of this study?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 381,
+    "input_text": "Question: Coupled with which of the following statements, it can be logically introduced that \"some track and field athletes participating in the 200-meter competition did not participate in the 4 × 100-meter competition\"?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 382,
+    "input_text": "Question: Which of the following statements is assumed by this sociologist ’s assertion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 383,
+    "input_text": "Question: The answer to which of the following questions is most helpful in evaluating the appeal argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 384,
+    "input_text": "Question: The following statements, except which one, can support the scientist's point of view?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 385,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 386,
+    "input_text": "Question: Which of the following statements is most suitable as the conclusion of the above discussion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 387,
+    "input_text": "Question: The differences between Zhang Qiang and Li Ming are?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 388,
+    "input_text": "Question: If the above statement is true, which of the following statements must be false?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 389,
+    "input_text": "Question: Which of the following inferences is most similar to the one used above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 390,
+    "input_text": "Question: Which of the following ways did Zhu Hong's argument take place?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 391,
+    "input_text": "Question: If which of the following statements is true, the most serious shaken Lin Na's rebuttal to Zhu Hong?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 392,
+    "input_text": "Question: Which of the following items (from left to right) may be the athlete's ranking from the first to the seventh to the finish line?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 393,
+    "input_text": "Question: Which of the following athletes listed in the list of clothing can not be red?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 394,
+    "input_text": "Question: If X reaches the finish point third, the following athlete's costume must be green?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 395,
+    "input_text": "Question: If the clothing of three athletes happens to be green, which of the following athletes must be green?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 396,
+    "input_text": "Question: It is impossible for the athletes listed in which of the following to reach the finish line one after another?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 397,
+    "input_text": "Question: Which of the following may list the complete and accurate arms allocation plan for recruits?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 398,
+    "input_text": "Question: Which of the following lists is a list of all recruits who are unlikely to be engineering soldiers?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 399,
+    "input_text": "Question: If which of the following statements is true, can you fully determine the arms of the seven recruits?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 400,
+    "input_text": "Question: Which of the following recruits cannot be assigned as transport soldiers together?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 401,
+    "input_text": "Question: If X is not assigned as an engineer, which of the following statements may be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 402,
+    "input_text": "Question: This commenter ’s reasoning is flawed because he",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 403,
+    "input_text": "Question: Which of the following statements best describes the flaws in the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 404,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 405,
+    "input_text": "Question: If which of the following statements is true, can the strongest support for the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 406,
+    "input_text": "Question: Which of the following statements is the assumption that holds the above conclusion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 407,
+    "input_text": "Question: If which of the following statements is true, is it most helpful to explain the above behavior of the vervet monkey?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 408,
+    "input_text": "Question: If which of the following statements is true, which strongly supports the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 409,
+    "input_text": "Question: Which of the following inferences is most similar to the above inferences?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 410,
+    "input_text": "Question: If which of the following statements is true, will the above conclusion be weakened most?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 411,
+    "input_text": "Question: In all of the following statements, except for which one, refute the assumptions demonstrated above?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 412,
+    "input_text": "Question: Which of the following is the hypothesis required by this ethicist ’s argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 413,
+    "input_text": "Question: Which of the following statements most accurately expresses the meaning of Perrin ’s creed?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 414,
+    "input_text": "Question: If any of the following statements is true, can the above medical scientist's conclusion be given the strongest support?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 415,
+    "input_text": "Question: If any of the following statements are true, is it most helpful to eliminate the obvious inconsistencies in the above description?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 416,
+    "input_text": "Question: Which of the following statements is the assumption upon which the above argument relies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 417,
+    "input_text": "Question: If the following statement is true, in addition to which one can weaken the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 418,
+    "input_text": "Question: If the following statement is used as a hypothesis, the conclusion of the above reasoning can be logically derived?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 419,
+    "input_text": "Question: If any of the following statements are true, can we best explain the seemingly contradictory phenomenon?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 420,
+    "input_text": "Question: If which of the following statements is true, the above argument is weakened most effectively?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 421,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 422,
+    "input_text": "Question: Which of the following ways of reasoning is most similar to the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 423,
+    "input_text": "Question: Which of the following assertions can support the opinions of these experts?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 424,
+    "input_text": "Question: Which of the following statements best describes the flaws in Zhang Hua ’s inference?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 425,
+    "input_text": "Question: If which of the following statements is true, it weakens the speculation above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 426,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 427,
+    "input_text": "Question: Which of the following statements accurately summarizes the most serious flaw of the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 428,
+    "input_text": "Question: Which of the following statements is the hypothesis on which student representative L’ s complaint relies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 429,
+    "input_text": "Question: Which of the following statements best fits the principles expressed above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 430,
+    "input_text": "Question: If any of the following statements is true, will it weaken the author's interpretation of \"unmarried with the same surname\"?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 431,
+    "input_text": "Question: If the following statement is true, which one best explains the above anomalies?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 432,
+    "input_text": "Question: Which of the following statements is the assumption required for the above conclusion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 433,
+    "input_text": "Question: Which of the following arguments is most similar to the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 434,
+    "input_text": "Question: If which of the following statements is true, provides the best explanation for the abnormal behavior of male brown bears?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 435,
+    "input_text": "Question: If any of the following statements are true, can the conclusion of the above argument be drawn logically?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 436,
+    "input_text": "Question: Which of the following statements best illustrates the shortcomings of the above reasoning?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 437,
+    "input_text": "Question: If any of the following statements is true, can the above argument be weakened most effectively?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 438,
+    "input_text": "Question: If any of the following statements are true, will it be most helpful to resolve the doubts above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 439,
+    "input_text": "Question: Which of the following reasoning has the same form as the above reasoning?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 440,
+    "input_text": "Question: Which of the following statements most accurately expresses the underlying principles underlying the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 441,
+    "input_text": "Question: If which of the following statements is true, gives the best explanation for the inconsistency above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 442,
+    "input_text": "Question: Which of the following lists the possible exhibition order?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 443,
+    "input_text": "Question: If the age of Y is the second earliest, which of the following statements might be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 444,
+    "input_text": "Question: Which of the following cannot be the earliest porcelain?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 445,
+    "input_text": "Question: If the age of X is earlier than S, which of the following statements might be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 446,
+    "input_text": "Question: If the age of M is earlier than Q but later than K, which of the following statements might be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 447,
+    "input_text": "Question: Which of the following lists the possible combinations of accompaniment and singer?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 448,
+    "input_text": "Question: If X is an accompaniment to L and H, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 449,
+    "input_text": "Question: If W is the accompaniment of F and M, which pair of singers can X accompany?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 450,
+    "input_text": "Question: W cannot accompany any of the following singers?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 451,
+    "input_text": "Question: It is impossible for Y to accompany the following pair of singers?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 452,
+    "input_text": "Question: Which of the following questions is most important to assess the rationality of the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 453,
+    "input_text": "Question: If the above statement is true, which of the following statements cannot be supported?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 454,
+    "input_text": "Question: Which of the following statements is not a hypothesis for the \"flying rhino\" action?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 455,
+    "input_text": "Question: If the following statement is true, which one gives the best explanation for the scientist's confusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 456,
+    "input_text": "Question: Which of the following statements is true and provides the best explanation for scientists ’beliefs?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 457,
+    "input_text": "Question: If the following statement is true, which one is the strongest proof of the justification of the above principle?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 458,
+    "input_text": "Question: Which of the following points out the logical question in the lawyer ’s answer?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 459,
+    "input_text": "Question: Which of the following statements most accurately points out the flaws in the above defense",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 460,
+    "input_text": "Question: If the above statement is true, which of the following statements about the students in the class must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 461,
+    "input_text": "Question: If the following statement is true, which one is most appropriate to challenge the above conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 462,
+    "input_text": "Question: If the following statement is true, all but one of them question the netizen's judgment?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 463,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 464,
+    "input_text": "Question: If the sand monk's words are true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 465,
+    "input_text": "Question: The reasoning in the above reasoning is flawed because of the argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 466,
+    "input_text": "Question: If the following statement is true, all but one of the items can weaken the conclusion discussed above",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 467,
+    "input_text": "Question: Which of the following ways of reasoning is most similar to the reasoning of the above-mentioned sophisters",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 468,
+    "input_text": "Question: If the above statement is true, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 469,
+    "input_text": "Question: If the following statement is true, which one would most strongly weaken the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 470,
+    "input_text": "Question: Which of the following statements is true, which most seriously shakes the traditional view of the origin of the Gua name?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 471,
+    "input_text": "Question: The defect of which of the following arguments is most similar to the above argument",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 472,
+    "input_text": "Question: If any of the following statements is true, will it most support the hypothesis of the above scientists?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 473,
+    "input_text": "Question: Which of the following statements is the hypothesis that the above argument relies on?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 474,
+    "input_text": "Question: Which of the following statements most preparedly points out the shortcomings of the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 475,
+    "input_text": "Question: Which of the following best describes the techniques used in Paine ’s argument",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 476,
+    "input_text": "Question: Which of the following statements can provide the best support for the above conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 477,
+    "input_text": "Question: The answer to which of the following questions is least relevant to assess the authenticity of the above report?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 478,
+    "input_text": "Question: Which of the following statements is consistent with the above two documents?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 479,
+    "input_text": "Question: If any of the following statements are true, can we best explain the seemingly contradictory phenomenon?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 480,
+    "input_text": "Question: Which of the following statements accurately points out the shortcomings of the above reasoning?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 481,
+    "input_text": "Question: If any of the following statements is true, can it best explain why the German government risked adopting this policy?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 482,
+    "input_text": "Question: If the following statements are true, all but one can weaken Aristotle ’s interpretation",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 483,
+    "input_text": "Question: If the following statement is true, which one most powerfully weakened the expert's judgment?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 484,
+    "input_text": "Question: If the following statement is true, in addition to which one can weaken the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 485,
+    "input_text": "Question: Which of the following is necessary to evaluate the dumping behavior mentioned above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 486,
+    "input_text": "Question: Which of the following principles is most helpful to show the rationality of the above reasoning?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 487,
+    "input_text": "Question: If the above statement is true, which hypothesis is best supported?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 488,
+    "input_text": "Question: Which of the following statements is the hypothesis on which Lu Bian ’s argument relies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 489,
+    "input_text": "Question: How many chefs can meet the above conditions?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 490,
+    "input_text": "Question: Which of the following statements most pointed out the shortcomings of the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 491,
+    "input_text": "Question: If the above statement is true, which of the following statements is not necessarily true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 492,
+    "input_text": "Question: Which of the following can be a complete and accurate arrangement of the duty dates of these people?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 493,
+    "input_text": "Question: Which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 494,
+    "input_text": "Question: If P is on duty in the second day, which of the following can be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 495,
+    "input_text": "Question: If H is on duty the same day before S, which of the following must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 496,
+    "input_text": "Question: The following lists the order of serving from the first to the seventh, which one meets the conditions?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 497,
+    "input_text": "Question: If the fourth goes to X, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 498,
+    "input_text": "Question: If the fourth is K, which of the following statements may be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 499,
+    "input_text": "Question: Which of the following may be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 500,
+    "input_text": "Question: If the third is M, which of the following statements may be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 501,
+    "input_text": "Question: Which of the following statements constitutes a refutation of the above view?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 502,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 503,
+    "input_text": "Question: Which of the following statements is the above conclusion needs to be assumed?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 504,
+    "input_text": "Question: The following statements can be logically derived from the above, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 505,
+    "input_text": "Question: The following items are all implicit in the local official ’s words, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 506,
+    "input_text": "Question: If the above statement is true, the following statements must be true, except",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 507,
+    "input_text": "Question: From the painter's words, which of the following statements can only be logically derived?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 508,
+    "input_text": "Question: If the following statement is true, which one most strongly weakens the conclusion above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 509,
+    "input_text": "Question: If the following statement is true, which one best explains the above phenomenon?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 510,
+    "input_text": "Question: If the following statement is true, which one can best explain the seemingly contradictory phenomenon?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 511,
+    "input_text": "Question: According to the above statement, how many people are the least likely to attend the seminar? How many people are the most likely?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 512,
+    "input_text": "Question: In response to Wang Gang's discussion, which of the following demonstration techniques did Li Yan use?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 513,
+    "input_text": "Question: The following statements all weaken the conclusions above, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 514,
+    "input_text": "Question: Which of the following statements best supports the above statement?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 515,
+    "input_text": "Question: Which of the following is the logical corollary of the statement above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 516,
+    "input_text": "Question: Which of the following statements most appropriately points out the problem with the advertisement?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 517,
+    "input_text": "Question: Which of the following statements can be appropriately derived from the above statement?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 518,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 519,
+    "input_text": "Question: Which of the following statements is the hypothesis required for this argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 520,
+    "input_text": "Question: The following statements conflict with the ideas expressed above, except",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 521,
+    "input_text": "Question: If the following statement is true, which one is most helpful to eliminate the obvious inconsistencies in the above description?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 522,
+    "input_text": "Question: If the following statement is true, which one most strongly supports the above expert's conclusion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 523,
+    "input_text": "Question: If the following statement is true, which one most strongly challenges the above conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 524,
+    "input_text": "Question: If the following statement is true, which item best explains the seemingly inconsistent phenomenon?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 525,
+    "input_text": "Question: Which of the following reasoning has the same logical error as the above reasoning?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 526,
+    "input_text": "Question: The following statements all have similar \"survivor bias\" except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 527,
+    "input_text": "Question: From the above, it is possible to draw a conclusion more reasonable than the conclusion drawn by \"I\", except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 528,
+    "input_text": "Question: Which of the following statements best evaluates the critics' rebuttal?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 529,
+    "input_text": "Question: Which of the following most appropriately points out a flaw in the critic's argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 530,
+    "input_text": "Question: Which of the following statements is the assumption that the above discussion relies on?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 531,
+    "input_text": "Question: Which of the following statements is the logical inference above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 532,
+    "input_text": "Question: Which of the following statements best points out the problems in the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 533,
+    "input_text": "Question: Which of the following statements is most appropriate to continue the above as its conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 534,
+    "input_text": "Question: The phenomena listed below are all explained by the scene construction theory but not by the traditional memory theory, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 535,
+    "input_text": "Question: If the following statement is true, which one most strongly questioned the above experts' suggestions?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 536,
+    "input_text": "Question: If the following statement is true, which one can pose the strongest challenge to the above conclusion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 537,
+    "input_text": "Question: If the following statement is true, which one cannot weaken the conclusion of the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 538,
+    "input_text": "Question: If the following statement is true, which one can best weaken Li Ming's rebuttal to Zhang Qiang?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 539,
+    "input_text": "Question: If the following statement is true, which one provides the strongest support for the above statement?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 540,
+    "input_text": "Question: If the following statement is true, which one can weaken the above argument most powerfully?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 541,
+    "input_text": "Question: Which of the following can accurately mark the goods stored in warehouses 1 to 3?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 542,
+    "input_text": "Question: Which of the following goods cannot be stored in warehouse No. 4?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 543,
+    "input_text": "Question: If there is exactly one warehouse between the warehouse where M is stored and the warehouse where G is stored, how many kinds of goods are stored in the warehouse?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 544,
+    "input_text": "Question: Which of the following warehouses may store goods L?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 545,
+    "input_text": "Question: Which of the following must be false?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 546,
+    "input_text": "Question: Which two of the following cannot be ranked together?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 547,
+    "input_text": "Question: Which of the following must be ranked the next day?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 548,
+    "input_text": "Question: Which of the following people can't be on duty for two days?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 549,
+    "input_text": "Question: If L is a two-day shift, which of the following must be on the same day as L?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 550,
+    "input_text": "Question: Which of the following people can be ranked on any day?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 551,
+    "input_text": "Question: If the following statement is true, which one strongly supports the above argument?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 552,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 553,
+    "input_text": "Question: If the investigation result is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 554,
+    "input_text": "Question: Which of the following best illustrates the logical loophole of this argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 555,
+    "input_text": "Question: The above argument by politicians is most vulnerable to criticism because",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 556,
+    "input_text": "Question: If the following statement is true, which one strongly refutes the above conclusion?-",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 557,
+    "input_text": "Question: Which of the following conclusions cannot be reasonably drawn from the above statement?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 558,
+    "input_text": "Question: If the following statement is true, which one provides the strongest support for economists' above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 559,
+    "input_text": "Question: If the following statement is true, which one best explains this counterintuitive practice in Japan?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 560,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 561,
+    "input_text": "Question: Which of the following most accurately points to the logical loophole of the argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 562,
+    "input_text": "Question: If the following statement is true, it can weaken the above conclusions, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 563,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 564,
+    "input_text": "Question: If the following statement is true, which one best explains the above anomalies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 565,
+    "input_text": "Question: If the above statement is true, which of the following statements must be false?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 566,
+    "input_text": "Question: If the following statement is true, which one most severely weakened the argument above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 567,
+    "input_text": "Question: The conclusion of the student office of the school is based on which of the following assumptions?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 568,
+    "input_text": "Question: If the judgment of the Russian Ministry of Economic Development is correct, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 569,
+    "input_text": "Question: If the above statement is true, which of the following is a reasonable inference from the above statement?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 570,
+    "input_text": "Question: The manager ’s argument is flawed because",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 571,
+    "input_text": "Question: The answers to the following questions are relevant to the evaluation of the above argument, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 572,
+    "input_text": "Question: Which of the following is the assumption that the above argument relies on?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 573,
+    "input_text": "Question: In order for the above reasoning to be true, which of the following must be added as a premise?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 574,
+    "input_text": "Question: If the following statement is true, which one best explains the strange phenomenon of insurance companies competing for strong insurance business?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 575,
+    "input_text": "Question: Which of the following conclusions strongly supports the above statement?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 576,
+    "input_text": "Question: If the following statement is true, which one strongly questioned the expert's interpretation?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 577,
+    "input_text": "Question: If the following statement is true, which one will give the strongest support to Chinese officials' assertions?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 578,
+    "input_text": "Question: Which of the following is the most suitable conclusion for the above experiment?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 579,
+    "input_text": "Question: If the following statement is true, it will help explain the obvious inconsistency above, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 580,
+    "input_text": "Question: If the above statement is true, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 581,
+    "input_text": "Question: If the following statement is true, which one best explains the two seemingly contradictory predictions?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 582,
+    "input_text": "Question: If the above statement is true, which of the following statements must be false?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 583,
+    "input_text": "Question: Which of the following statements points out the problems in the above discussion?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 584,
+    "input_text": "Question: The answer to which of the following questions is most relevant to the assessment of the above judgment?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 585,
+    "input_text": "Question: If the following statement is true, which one strongly supports the above statement 2",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 586,
+    "input_text": "Question: The following statements can support the above explanation, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 587,
+    "input_text": "Question: If the following statement is true, which one weakens the above argument the strongest?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 588,
+    "input_text": "Question: If the following statement is true, which one weakens the manager's assertion the most?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 589,
+    "input_text": "Question: If you accept the nutritionist's opinion, you must accept which of the following statements?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 590,
+    "input_text": "Question: If the following statement is true, which one best supports the above conclusion?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 591,
+    "input_text": "Question: Which of the following can be the order of recording these 7 records from 1 to 7?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 592,
+    "input_text": "Question: If M is somewhere before J and somewhere before K, which of the following must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 593,
+    "input_text": "Question: Which of the following lists a complete and accurate list of records that can be recorded first?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 594,
+    "input_text": "Question: The earliest position for recording M is",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 595,
+    "input_text": "Question: If G is immediately in front of H but all other conditions are still valid, any of the following options can be true except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 596,
+    "input_text": "Question: Which of the following can be used as a complete and accurate list of students going to the UK?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 597,
+    "input_text": "Question: Which two of the following cannot go to the US together?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 598,
+    "input_text": "Question: How many students can go to the UK together?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 599,
+    "input_text": "Question: If both M and W go to the UK, which of the following can be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 600,
+    "input_text": "Question: If G goes to the United States, which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 601,
+    "input_text": "Question: The following items constitute a question of the above views, except",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 602,
+    "input_text": "Question: If Einstein is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 603,
+    "input_text": "Question: In order to evaluate the above argument, the answer to which of the following questions is most important?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 604,
+    "input_text": "Question: Which of the following statements is closest to the meaning expressed by the netizen?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 605,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 606,
+    "input_text": "Question: Knowing that country A is a member of the Agreement on Trade-Related Aspects of Intellectual Property Rights, which of the following statements is inconsistent with the above provisions?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 607,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 608,
+    "input_text": "Question: In the course of the above discussion, the author presupposed which of the following statements?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 609,
+    "input_text": "Question: Which of the following inferences contains the same logical error as that of the industry insider?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 610,
+    "input_text": "Question: The answers to the following questions may question the above argument, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 611,
+    "input_text": "Question: Which of the following statements can be logically derived from the economist ’s argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 612,
+    "input_text": "Question: Which of the following statements can be logically derived from the words of the vice president of the condiment association?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 613,
+    "input_text": "Question: Which of the following statements most appropriately points out a flaw in John ’s reasoning?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 614,
+    "input_text": "Question: If any of the following statements are true, can we best explain the above-mentioned violation of common sense?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 615,
+    "input_text": "Question: The following items can be derived from Nozick ’s statement, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 616,
+    "input_text": "Question: According to the netizen, it is not logical to determine which of the following statements is true or false?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 617,
+    "input_text": "Question: If any of the following statements are true, will the expert's view be most strongly supported?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 618,
+    "input_text": "Question: Which of the following statements is the assumption that the above explanation must rely on?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 619,
+    "input_text": "Question: If which of the following statements is true, will the above argument be most strongly supported?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 620,
+    "input_text": "Question: Which of the following statements best pointed out the deficiencies in the first instance of the case?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 621,
+    "input_text": "Question: Which of the following options is a method or principle not used by John Snow ’s reasoning?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 622,
+    "input_text": "Question: If the above statements are true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 623,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 624,
+    "input_text": "Question: If which of the following statements is true, will the above statement be weakened most effectively?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 625,
+    "input_text": "Question: If the above statement is true, which of the following statements must be false?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 626,
+    "input_text": "Question: Which of the following statements is the most vulnerable to the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 627,
+    "input_text": "Question: The following statements are helpful in explaining the above phenomenon, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 628,
+    "input_text": "Question: The following statements support the above views and arguments, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 629,
+    "input_text": "Question: Which of the following statements can be logically derived from the above?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 630,
+    "input_text": "Question: From the data given above, which of the following hypothetical conclusions can be most reasonably drawn?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 631,
+    "input_text": "Question: If any of the following statements is true, is it most appropriate to refute these countries' accusations against China?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 632,
+    "input_text": "Question: This politician's argument is most vulnerable to which of the following criticisms?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 633,
+    "input_text": "Question: If any of the following statements is true, can the best explain the above anomalies?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 634,
+    "input_text": "Question: Which of the following options is missing from the above reasoning?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 635,
+    "input_text": "Question: If the above statement is true, which of the following statements must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 636,
+    "input_text": "Question: Which of the following statements best evaluates the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 637,
+    "input_text": "Question: If any of the following statements are true, can this best explain the expert ’s seemingly contradictory attitude?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 638,
+    "input_text": "Question: Which of the following methods or techniques of argument does the philosopher use in his argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 639,
+    "input_text": "Question: Which of the following statements best points out the shortcomings of the above argument?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 640,
+    "input_text": "Question: Which of the following statement premises must be added to launch the above statement logically?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 641,
+    "input_text": "Question: If F is scheduled for the fifth week, which of the following correctly lists all the plays that can be scheduled for the seventh week?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 642,
+    "input_text": "Question: For any acceptable arrangement, which of the following must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 1.0
+    }
+  },
+  {
+    "doc_id": 643,
+    "input_text": "Question: If R is arranged in the fifth week and O is arranged in the second week, the alternative arrangements are?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 644,
+    "input_text": "Question: If S is scheduled for the sixth week, then which week must R be scheduled?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 1.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 645,
+    "input_text": "Question: If O happens to be the week before J, which of the following must be true?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 646,
+    "input_text": "Question: Which of the following lists a list of members who can become members of the committee in the first year?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 647,
+    "input_text": "Question: If V is the chairman of the committee in the first year, which of the following options lists the two people who must be members of the committee in the second year?",
+    "scores": {
+      "xsmall": 1.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 648,
+    "input_text": "Question: If H is chairman in the first year, which of the following can be chairman in the second year?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 1.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 649,
+    "input_text": "Question: If F is a member of the committee in a certain year, any of the following can be a member of the committee that year, except",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  },
+  {
+    "doc_id": 650,
+    "input_text": "Question: Which of the following must be true?",
+    "scores": {
+      "xsmall": 0.0,
+      "small": 0.0,
+      "medium": 0.0,
+      "large": 0.0
+    }
+  }
+]
