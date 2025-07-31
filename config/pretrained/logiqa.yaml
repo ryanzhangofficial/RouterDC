@@ -59,7 +59,7 @@ algorithm:
   hidden_state_dim: 768
   node_size: 4
   similarity_function: "cos"
-  router_checkpoint_path: "/dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/results/clw_1_slw_0_tk_4_lk_4_lr_5e-5_steps_1000_seed_1/final_model.pth"
+  router_checkpoint_path: "/dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/results/qwen2_clw_1_slw_0_tk_4_lk_4_lr_5e-5_steps_1000_seed_1/final_model.pth"
 
 lm_eval:
   # The run name will be the first benchmark in the list below.
