@@ -47,7 +47,7 @@ mkdir -p results logs
 
 # Run experiments loop
 for seed in "${seeds[@]}"; do
-  EXP_NAME=qwen2_clw_${cluster_loss_weight}_slw_${sample_loss_weight}_tk_${top_k}_lk_${last_k}_lr_${learning_rate}_steps_${training_steps}_seed_${seed}
+  EXP_NAME=qwen2_clw_${cluster_loss_weight}_slw_${sample_loss_weight}_tk_${top_k}_lk_${last_k}_lr_${learning_rate}_steps_${training_steps}_seed_${seed}_narrow
   SAVE_DIR=$(pwd)/results/${EXP_NAME}
   LOG_FILE=$(pwd)/logs/${EXP_NAME}.log
 
