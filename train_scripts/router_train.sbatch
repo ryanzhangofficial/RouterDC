@@ -47,7 +47,7 @@ mkdir -p results logs
 
 # Run experiments loop
 for seed in "${seeds[@]}"; do
-  EXP_NAME=qwen2_clw_${cluster_loss_weight}_slw_${sample_loss_weight}_tk_${top_k}_lk_${last_k}_lr_${learning_rate}_steps_${training_steps}_seed_${seed}_narrow
+  EXP_NAME=qwen2_clw_${cluster_loss_weight}_slw_${sample_loss_weight}_tk_${top_k}_lk_${last_k}_lr_${learning_rate}_steps_${training_steps}_seed_${seed}_mixed
   SAVE_DIR=$(pwd)/results/${EXP_NAME}
   LOG_FILE=$(pwd)/logs/${EXP_NAME}.log
 
@@ -57,14 +57,14 @@ for seed in "${seeds[@]}"; do
   # Invoke the host venv's Python (mounted) inside the container
   /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/ge56heh2/mess-plus/venv/bin/python train_router_mdeberta.py \
     --data_paths \
-      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_narrow_cost_spread/arc_challenge/arc_challenge_qwen.json \
-      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_narrow_cost_spread/arc_easy/arc_easy_qwen.json \
-      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_narrow_cost_spread/boolq/boolq_qwen.json \
-      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_narrow_cost_spread/logiqa/logiqa_qwen.json \
-      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_narrow_cost_spread/piqa/piqa_qwen.json \
-      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_narrow_cost_spread/sciq/sciq_qwen.json \
-      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_narrow_cost_spread/social_iqa/social_iqa_qwen.json \
-      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_narrow_cost_spread/winogrande/winogrande_qwen.json \
+      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_mixed/arc_challenge/arc_challenge_qwen.json \
+      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_mixed/arc_easy/arc_easy_qwen.json \
+      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_mixed/boolq/boolq_qwen.json \
+      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_mixed/logiqa/logiqa_qwen.json \
+      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_mixed/piqa/piqa_qwen.json \
+      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_mixed/sciq/sciq_qwen.json \
+      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_mixed/social_iqa/social_iqa_qwen.json \
+      /dss/dssfs04/lwp-dss-0002/pn72yi/pn72yi-dss-0000/go76xom2/RouterDC/data/qwen2_mixed/winogrande/winogrande_qwen.json \
     --batch_size 64 \
     --training_steps ${training_steps} \
     --learning_rate ${learning_rate} \
